@@ -38,8 +38,11 @@ This list covers the semiconductor industry with a strong bias toward:
 One link, one line, one reason:
 
 ```markdown
-- [Name](https://example.com) — What it is, and why someone would open it. One or two sentences.
+- [Name](https://example.com) - What it is, and why someone would open it. One or two sentences.
 ```
+
+The separator is a plain hyphen surrounded by spaces, and the description starts on the same
+line as the link. Both are required by [awesome-lint](https://github.com/sindresorhus/awesome-lint).
 
 Rules:
 
@@ -72,7 +75,9 @@ Remember to add the section to the table of contents.
 
 - Wrap prose at roughly 100 characters. List items, tables, and long URLs may exceed this —
   a list entry keeps its link and the start of its description on one line.
-- Use an em dash (—) between the link and its description.
+- Use a plain hyphen (` - `) between the link and its description. Em dashes are fine *inside* a
+  description or a link title, just not as the separator.
+- Start the description with a capital letter and end it with a period.
 - American English, sentence case for descriptions.
 - Spell out an acronym on first use within a section: "atomic layer deposition (ALD)".
 - Node names get the vendor's capitalization: "N2", "18A", "A16", "SF2".
