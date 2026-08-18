@@ -1,4 +1,4 @@
-# Awesome Semiconductor Industry Topics [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Semiconductor Industry Topics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated map of the modern semiconductor industry, with a deliberate bias toward the two places
 > where the hardest engineering now happens: **logic below 10 nm** and **inside the package**.
@@ -1141,8 +1141,9 @@ No open-source flow currently signs off a 3D stack. These are the tools that do.
 - [OpenRPDK28](https://github.com/RIOSLaboratory/OpenRPDK28) — Open process design kit for a 28 nm
   process; one of the few open kits below 45 nm.
 - [ICS55 open PDK](https://github.com/openecos-projects/icsprout55-pdk) — 55 nm CMOS open-source PDK
-  released by ICsprout, with a stated path to manufacturing. The most advanced node with an openly
-  published, foundry-backed kit.
+  (Apache 2.0) from ICsprout, backed by the company's own 300 mm pilot line. The most advanced node
+  released as an open, foundry-backed kit so far — but read the terms: it is a preview, open-EDA
+  compatibility is still being worked on, and commercial mass production use is currently excluded.
 - [lambdapdk](https://github.com/siliconcompiler/lambdapdk) — A library of open PDK packages wrapped
   in a uniform interface, so a design can move between processes without rewriting the flow.
 - [volare](https://github.com/chipfoundry/volare) — Version manager and builder for the SKY130 and
