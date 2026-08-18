@@ -1,0 +1,56 @@
+name: Link Check
+
+# A curated list is only as good as its links. This runs monthly (and on PRs that touch
+# the list) and opens an issue when links rot.
+
+on:
+  push:
+    paths: ["**.md"]
+  pull_request:
+    paths: ["**.md"]
+  schedule:
+    # 06:00 UTC on the first of every month
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # --max-concurrency keeps us from tripping rate limits on GitHub and vendor sites.
+          # Many corporate sites reject HEAD, so lychee is told to fall back to GET.
+          args: >-
+            --no-progress
+            --max-concurrency 8
+            --timeout 30
+            --max-retries 2
+            --accept 200,201,202,203,204,206,301,302,303,307,308,999
+            --exclude-path .github
+            "**/*.md"
+          output: ${{ github.workspace }}/lychee/out.md
+          fail: false
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: ${{ github.workspace }}/lychee/out.md
+          if-no-files-found: ignore
+
+      - name: Open an issue on failure
+        if: steps.lychee.outputs.exit_code != 0 && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link check found broken links
+          content-filepath: ${{ github.workspace }}/lychee/out.md
+          labels: broken-links, maintenance
