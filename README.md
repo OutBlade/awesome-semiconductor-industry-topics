@@ -122,19 +122,16 @@ for everything below.
   successor to the ITRS. Free PDF chapters covering More Moore, Beyond CMOS, Lithography,
   Metrology, Packaging Integration, and Systems and Architectures. The single best free orientation
   to where the industry thinks it is going.
-- [Heterogeneous Integration Roadmap (HIR)](https://eps.ieee.org/technology/heterogeneous-integration-roadmap/) -
-  IEEE EPS 20+ chapter roadmap dedicated entirely to packaging and integration. Free download,
+- [Heterogeneous Integration Roadmap (HIR)](https://eps.ieee.org/technology/heterogeneous-integration-roadmap/) - IEEE EPS 20+ chapter roadmap dedicated entirely to packaging and integration. Free download,
   updated on a rolling basis.
-- [Semiconductor Engineering Knowledge Center](https://semiengineering.com/knowledge-center/) -
-  Encyclopedia-style entries for essentially every term in this list, each linked to the news
+- [Semiconductor Engineering Knowledge Center](https://semiengineering.com/knowledge-center/) - Encyclopedia-style entries for essentially every term in this list, each linked to the news
   articles that use it.
 - [imec Technology Articles](https://www.imec-int.com/en/expertise) - The research institute that
   most of the industry co-funds, explaining its own results in plain language. Best free source on
   CFET, backside power, semi-damascene, and 2D materials.
 - [Asianometry — Semiconductor playlist](https://www.youtube.com/@Asianometry) - Long-form video
   explainers on fab history, equipment, and geopolitics. Unusually well-sourced.
-- [Construction Physics — Semiconductor fab reading list](https://www.construction-physics.com/p/semiconductor-fab-reading-list) -
-  An annotated reading list for understanding fabs as physical, capital-intensive factories.
+- [Construction Physics — Semiconductor fab reading list](https://www.construction-physics.com/p/semiconductor-fab-reading-list) - An annotated reading list for understanding fabs as physical, capital-intensive factories.
 - [Chips and Cheese](https://chipsandcheese.com/) - Independent microarchitecture and silicon
   analysis. The best free source on what shipping chips actually do, as opposed to what their
   datasheets claim.
@@ -154,11 +151,9 @@ front-side or backside. Everything else is marketing.
 
 - [IRDS 2023/2025 Editions](https://irds.ieee.org/editions) - Free, chapter-by-chapter. Start with
   *More Moore* and *Lithography*.
-- [Heterogeneous Integration Roadmap](https://eps.ieee.org/technology/heterogeneous-integration-roadmap/) -
-  Chapters on Single-Chip and Multi-Chip Integration, 2.5D/3D, Interconnects for 2D/3D, Thermal,
+- [Heterogeneous Integration Roadmap](https://eps.ieee.org/technology/heterogeneous-integration-roadmap/) - Chapters on Single-Chip and Multi-Chip Integration, 2.5D/3D, Interconnects for 2D/3D, Thermal,
   Test, Reliability, Co-Design, and Photonics.
-- [SEMI — Heterogeneous Integration Roadmap community](https://www.semi.org/en/communities/heterogeneous_integration_roadmap) -
-  SEMI's landing page for HIR participation.
+- [SEMI — Heterogeneous Integration Roadmap community](https://www.semi.org/en/communities/heterogeneous_integration_roadmap) - SEMI's landing page for HIR participation.
 - [ITRS Archive (2.0, 2015)](https://www.semiconductors.org/resources/2015-international-technology-roadmap-for-semiconductors-itrs/) - The historical roadmap. Still worth reading
   for how the industry framed scaling before the "equivalent scaling" era.
 - [OCP Open Domain-Specific Architecture (ODSA)](https://www.opencompute.org/wiki/Server/ODSA) - Open
@@ -198,14 +193,11 @@ single-exposure patterning has run out and electrostatics no longer come for fre
 
 ### Node Roadmaps by Foundry
 
-- [TSMC Technology Roadmap](https://www.tsmc.com/english/dedicatedFoundry/technology/logic) -
-  Official N7 / N5 / N3 / N2 / A16 / A14 descriptions. A16 introduces Super Power Rail (TSMC's
+- [TSMC Technology Roadmap](https://www.tsmc.com/english/dedicatedFoundry/technology/logic) - Official N7 / N5 / N3 / N2 / A16 / A14 descriptions. A16 introduces Super Power Rail (TSMC's
   backside power delivery); A14 is the first TSMC node targeted at High-NA.
-- [Intel Foundry Process Technology](https://www.intel.com/content/www/us/en/foundry/process.html) -
-  Intel 7 / 4 / 3 / 18A / 14A. Intel 18A pairs RibbonFET (GAA) with PowerVia (backside power) and
+- [Intel Foundry Process Technology](https://www.intel.com/content/www/us/en/foundry/process.html) - Intel 7 / 4 / 3 / 18A / 14A. Intel 18A pairs RibbonFET (GAA) with PowerVia (backside power) and
   was the first node to ship with backside power delivery in volume.
-- [Samsung Foundry Process](https://semiconductor.samsung.com/foundry/process-technology/) -
-  SF4 / SF3 / SF2 / SF1.4. Samsung was first to production with GAA (MBCFET) at 3 nm.
+- [Samsung Foundry Process](https://semiconductor.samsung.com/foundry/process-technology/) - SF4 / SF3 / SF2 / SF1.4. Samsung was first to production with GAA (MBCFET) at 3 nm.
 - [Rapidus](https://www.rapidus.inc/en/) - Japan's 2 nm greenfield effort with IBM and imec;
   notable for a single-wafer, no-batch, fully-AI-scheduled fab concept.
 - [Wikipedia — 2 nm and 3 nm process](https://en.wikipedia.org/wiki/2_nm_process) - Unglamorous but
@@ -216,25 +208,17 @@ single-exposure patterning has run out and electrostatics no longer come for fre
 
 ### Transistor Architectures
 
-- [imec — CFET (complementary FET)](https://www.imec-int.com/en/articles/imec-puts-complementary-fet-cfet-logic-technology-roadmap) -
-  The architecture that stacks an nFET directly on a pFET. imec targets monolithic CFET around the
+- [imec — CFET (complementary FET)](https://www.imec-int.com/en/articles/imec-puts-complementary-fet-cfet-logic-technology-roadmap) - The architecture that stacks an nFET directly on a pFET. imec targets monolithic CFET around the
   A7 node, with monolithic and sequential integration flows differing sharply in thermal budget.
-- [imec — Outer wall forksheet](https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology) -
-  The bridge device between nanosheet and CFET, intended to extend the nanosheet roadmap to roughly
+- [imec — Outer wall forksheet](https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology) - The bridge device between nanosheet and CFET, intended to extend the nanosheet roadmap to roughly
   the A10 node with easier fabrication than the inner-wall forksheet.
-- [imec — Scaling monolithic CFET across multiple nodes](https://www.imec-int.com/en/articles/performance-boosters-scale-monolithic-cfet-across-multiple-logic-technology-nodes) -
-  What has to be true (channel stress, contact resistance, middle dielectric isolation) for CFET to
+- [imec — Scaling monolithic CFET across multiple nodes](https://www.imec-int.com/en/articles/performance-boosters-scale-monolithic-cfet-across-multiple-logic-technology-nodes) - What has to be true (channel stress, contact resistance, middle dielectric isolation) for CFET to
   scale rather than merely exist.
-- [Intel RibbonFET](https://www.intel.com/content/www/us/en/newsroom/news/intel-unveils-ribbonfet-powervia.html) -
-  Intel's gate-all-around implementation.
-- [Samsung MBCFET](https://semiconductor.samsung.com/foundry/process-technology/) -
-  Multi-Bridge Channel FET, the first GAA device in high-volume manufacturing.
-- [EE Times — VLSI 2025: Outer Wall Forksheet](https://www.eetimes.com/vlsi-2025-outer-wall-forksheet-bridges-nanosheet-and-cfet-architectures/) -
-  Readable conference coverage of the forksheet/CFET transition.
-- [Semiconductor Digest — Performance boosters for monolithic CFET](https://www.semiconductor-digest.com/performance-boosters-to-scale-monolithic-cfet-across-multiple-logic-technology-nodes/) -
-  Companion write-up with the device-level numbers.
-- [Nanosheet vs FinFET — Semiconductor Engineering](https://semiengineering.com/knowledge_centers/integrated-circuit/transistors/3d/gate-all-around-fet/) -
-  Knowledge-center entry with links to a decade of GAA coverage.
+- [Intel RibbonFET](https://www.intel.com/content/www/us/en/newsroom/news/intel-unveils-ribbonfet-powervia.html) - Intel's gate-all-around implementation.
+- [Samsung MBCFET](https://semiconductor.samsung.com/foundry/process-technology/) - Multi-Bridge Channel FET, the first GAA device in high-volume manufacturing.
+- [EE Times — VLSI 2025: Outer Wall Forksheet](https://www.eetimes.com/vlsi-2025-outer-wall-forksheet-bridges-nanosheet-and-cfet-architectures/) - Readable conference coverage of the forksheet/CFET transition.
+- [Semiconductor Digest — Performance boosters for monolithic CFET](https://www.semiconductor-digest.com/performance-boosters-to-scale-monolithic-cfet-across-multiple-logic-technology-nodes/) - Companion write-up with the device-level numbers.
+- [Nanosheet vs FinFET — Semiconductor Engineering](https://semiengineering.com/knowledge_centers/integrated-circuit/transistors/3d/gate-all-around-fet/) - Knowledge-center entry with links to a decade of GAA coverage.
 
 **Key primary sources.** The device papers themselves land at three venues every year:
 [IEDM](https://www.ieee-iedm.org/) (December), the
@@ -249,19 +233,13 @@ signals, cuts IR drop, and decouples power and signal RC. It also requires extre
 carrier bonding, and nano-TSVs in every standard cell — which is why it arrived with 18A/A16 and
 not earlier.
 
-- [imec — How to power chips from the backside](https://www.imec-int.com/en/articles/how-power-chips-backside) -
-  The clearest free explanation of nano-TSV and buried power rail (BPR) flows.
-- [imec — DTCO study of backside power delivery options](https://www.imec-int.com/en/articles/backside-power-delivery-options-dtco-study) -
-  imec/Arm co-optimization comparing BPR-based and nTSV-only implementations.
-- [Intel — PowerVia](https://www.intel.com/content/www/us/en/newsroom/news/intel-unveils-ribbonfet-powervia.html) -
-  Intel reports 5–10% standard cell utilization improvement and up to ~4% ISO-power performance
+- [imec — How to power chips from the backside](https://www.imec-int.com/en/articles/how-power-chips-backside) - The clearest free explanation of nano-TSV and buried power rail (BPR) flows.
+- [imec — DTCO study of backside power delivery options](https://www.imec-int.com/en/articles/backside-power-delivery-options-dtco-study) - imec/Arm co-optimization comparing BPR-based and nTSV-only implementations.
+- [Intel — PowerVia](https://www.intel.com/content/www/us/en/newsroom/news/intel-unveils-ribbonfet-powervia.html) - Intel reports 5–10% standard cell utilization improvement and up to ~4% ISO-power performance
   gain from decoupling power and signal routing.
-- [TrendForce — Clearwater Forest 18A backside power at Hot Chips](https://www.trendforce.com/news/2025/08/27/news-intels-clearwater-forest-unveils-18a-backside-power-at-hot-chips-tsmcs-super-power-rail-to-follow/) -
-  Where PowerVia and TSMC Super Power Rail stand relative to each other.
-- [Tom's Hardware — PowerVia technical detail](https://www.tomshardware.com/news/intel-details-powervia-backside-power-delivery-network) -
-  Good coverage of the test-vehicle results Intel published before productizing.
-- [Semiconductor Engineering — Big changes in power delivery, materials, and interconnects](https://semiengineering.com/big-changes-ahead-in-power-delivery-materials-and-interconnects/) -
-  Ties backside power to the interconnect metallization change happening at the same time.
+- [TrendForce — Clearwater Forest 18A backside power at Hot Chips](https://www.trendforce.com/news/2025/08/27/news-intels-clearwater-forest-unveils-18a-backside-power-at-hot-chips-tsmcs-super-power-rail-to-follow/) - Where PowerVia and TSMC Super Power Rail stand relative to each other.
+- [Tom's Hardware — PowerVia technical detail](https://www.tomshardware.com/news/intel-details-powervia-backside-power-delivery-network) - Good coverage of the test-vehicle results Intel published before productizing.
+- [Semiconductor Engineering — Big changes in power delivery, materials, and interconnects](https://semiengineering.com/big-changes-ahead-in-power-delivery-materials-and-interconnects/) - Ties backside power to the interconnect metallization change happening at the same time.
 
 ### Interconnect and BEOL Scaling
 
@@ -269,20 +247,14 @@ Below roughly 20 nm metal pitch, copper's effective resistivity blows up because
 thickness stop scaling and surface/grain-boundary scattering dominates. The industry's answers are
 barrier-less metals (Ru, Mo), subtractive patterning, and airgaps.
 
-- [imec — 16 nm pitch Ru lines by semi-damascene](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene) -
-  Record-low line resistance at 16 nm pitch using a subtractive/semi-damascene flow.
-- [imec — Semi-damascene with fully self-aligned vias at 18 nm metal pitch](https://www.imec-int.com/en/articles/imec-demonstrates-semi-damascene-interconnects-fully-self-aligned-vias-18nm-metal-pitch) -
-  Fully self-aligned vias are what makes semi-damascene manufacturable.
-- [Subtractive Ruthenium Interconnects with Airgap (IEEE)](https://ieeexplore.ieee.org/document/10873431) -
-  The airgap integration that turns Ru's resistance advantage into an actual capacitance win.
-- [IITC — International Interconnect Technology Conference](https://iitc-conference.org/) -
-  The interconnect venue. Past programs are public and are the best index of what is being tried:
+- [imec — 16 nm pitch Ru lines by semi-damascene](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene) - Record-low line resistance at 16 nm pitch using a subtractive/semi-damascene flow.
+- [imec — Semi-damascene with fully self-aligned vias at 18 nm metal pitch](https://www.imec-int.com/en/articles/imec-demonstrates-semi-damascene-interconnects-fully-self-aligned-vias-18nm-metal-pitch) - Fully self-aligned vias are what makes semi-damascene manufacturable.
+- [Subtractive Ruthenium Interconnects with Airgap (IEEE)](https://ieeexplore.ieee.org/document/10873431) - The airgap integration that turns Ru's resistance advantage into an actual capacitance win.
+- [IITC — International Interconnect Technology Conference](https://iitc-conference.org/) - The interconnect venue. Past programs are public and are the best index of what is being tried:
   [2025 program](https://iitc-conference.org/2025-iitc-program/),
   [2024 program](https://iitc-conference.org/2024-iitc-program/).
-- [Semiconductor Engineering — Interconnects approach tipping point](https://semiengineering.com/interconnects-approach-tipping-point/) -
-  Survey of the Cu → Ru/Mo transition and why it is happening now.
-- [Spatially resolved conductivity of rectangular interconnects (arXiv)](https://arxiv.org/abs/2401.14366) -
-  Physical modeling of surface scattering; useful if you want to compute rather than cite.
+- [Semiconductor Engineering — Interconnects approach tipping point](https://semiengineering.com/interconnects-approach-tipping-point/) - Survey of the Cu → Ru/Mo transition and why it is happening now.
+- [Spatially resolved conductivity of rectangular interconnects (arXiv)](https://arxiv.org/abs/2401.14366) - Physical modeling of surface scattering; useful if you want to compute rather than cite.
 
 ### DTCO, STCO and Standard Cells
 
@@ -290,8 +262,7 @@ Design-technology co-optimization is now where most of the "node" improvement co
 height reduction, fin/sheet depopulation, buried rails, and via-pillar schemes deliver density that
 lithography alone no longer does.
 
-- [imec — Design-technology co-optimization](https://www.imec-int.com/en/expertise) -
-  imec's DTCO program pages, including the standard-cell architectures used in their public studies.
+- [imec — Design-technology co-optimization](https://www.imec-int.com/en/expertise) - imec's DTCO program pages, including the standard-cell architectures used in their public studies.
 - [Si2 OpenPDK / OpenAccess](https://si2.org/openaccess/) - Database standard underneath most
   commercial physical design tools.
 - [ASAP7 Predictive PDK](https://asap.asu.edu/) - Arizona State / ARM 7 nm predictive PDK
@@ -302,23 +273,18 @@ lithography alone no longer does.
 - [FreePDK15](https://eda.ncsu.edu/freepdk/freepdk15/) - NCSU's 15 nm FinFET predictive kit.
 - [BSIM-CMG](https://bsim.berkeley.edu/models/bsimcmg/) - Berkeley's common multi-gate compact
   model, the industry standard for FinFET and nanosheet SPICE models. Source available.
-- [Semiconductor Engineering — System-technology co-optimization (STCO)](https://semiengineering.com/tag/dtco/) -
-  Where DTCO stops and packaging-aware STCO begins.
+- [Semiconductor Engineering — System-technology co-optimization (STCO)](https://semiengineering.com/tag/dtco/) - Where DTCO stops and packaging-aware STCO begins.
 
 ### Beyond-CMOS Channels and 2D Materials
 
-- [imec/ASML/TSMC — 300 mm 2D-material CMOS at 50 nm CPP](https://www.imec-int.com/en/press/asml-tsmc-and-imec-bring-industry-ready-2d-material-transistors-closer-breakthrough-300mm) -
-  MoS₂ nFETs and WS₂/WSe₂ pFETs on the same 300 mm wafer at 50 nm contacted poly pitch, with 94% of
+- [imec/ASML/TSMC — 300 mm 2D-material CMOS at 50 nm CPP](https://www.imec-int.com/en/press/asml-tsmc-and-imec-bring-industry-ready-2d-material-transistors-closer-breakthrough-300mm) - MoS₂ nFETs and WS₂/WSe₂ pFETs on the same 300 mm wafer at 50 nm contacted poly pitch, with 94% of
   transistors operational. The most significant lab-to-fab step 2D materials have taken.
-- [imec — 2D-material devices in the logic scaling roadmap](https://www.imec-int.com/en/articles/introducing-2d-material-based-devices-logic-scaling-roadmap) -
-  Where 2D channels plausibly enter: ultra-scaled logic, but also backend and wafer-backside
+- [imec — 2D-material devices in the logic scaling roadmap](https://www.imec-int.com/en/articles/introducing-2d-material-based-devices-logic-scaling-roadmap) - Where 2D channels plausibly enter: ultra-scaled logic, but also backend and wafer-backside
   devices.
-- [Semiconductor Today — 300 mm integration route for 2D FETs](https://www.semiconductor-today.com/news_items/2026/jun/imec-asml-tsmc-220626.shtml) -
-  Process-flow-level summary.
+- [Semiconductor Today — 300 mm integration route for 2D FETs](https://www.semiconductor-today.com/news_items/2026/jun/imec-asml-tsmc-220626.shtml) - Process-flow-level summary.
 - [IRDS Beyond CMOS chapter](https://irds.ieee.org/editions) - Systematic comparison of tunnel
   FETs, spin devices, ferroelectric logic, and 2D materials against CMOS baselines.
-- [Nature Electronics — 2D semiconductors collection](https://www.nature.com/subjects/two-dimensional-materials) -
-  Primary literature aggregation.
+- [Nature Electronics — 2D semiconductors collection](https://www.nature.com/subjects/two-dimensional-materials) - Primary literature aggregation.
 - [Stanford SystemX / N3XT](https://systemx.stanford.edu/) - Carbon nanotube FETs, RRAM, and
   monolithic 3D as a system-level alternative to conventional scaling.
 
@@ -328,20 +294,17 @@ lithography alone no longer does.
 
 ### EUV Fundamentals
 
-- [ASML — EUV lithography systems](https://www.asml.com/en/products/euv-lithography-systems) -
-  Product pages for the NXE 0.33 NA platform, including throughput and overlay specifications.
+- [ASML — EUV lithography systems](https://www.asml.com/en/products/euv-lithography-systems) - Product pages for the NXE 0.33 NA platform, including throughput and overlay specifications.
 - [ASML — Technology explained](https://www.asml.com/en/technology) - Vendor-authored but
   genuinely good tutorials on how the source, optics, reticle stage, and wafer stage work together.
 - [IRDS Lithography chapter](https://irds.ieee.org/editions) - Vendor-neutral resolution,
   overlay, and CD-uniformity requirements per node, with the multi-patterning decision tree.
-- [SPIE Advanced Lithography + Patterning](https://spie.org/conferences-and-exhibitions/advanced-lithography-and-patterning) -
-  The conference where every EUV result is first published. Proceedings are paywalled; abstracts
+- [SPIE Advanced Lithography + Patterning](https://spie.org/conferences-and-exhibitions/advanced-lithography-and-patterning) - The conference where every EUV result is first published. Proceedings are paywalled; abstracts
   and program are free and are a useful index.
 - [Chris Mack — Lithography resources](https://www.lithoguru.com/) - Decades of free lecture notes,
   the *Field Guide to Optical Lithography*, and the definitive plain-English writing on resolution,
   DOF, and stochastic effects.
-- [Lithography basics — Semiconductor Engineering](https://semiengineering.com/knowledge_centers/manufacturing/lithography/) -
-  Aggregated coverage with the EUV/DUV/multi-patterning terminology defined.
+- [Lithography basics — Semiconductor Engineering](https://semiengineering.com/knowledge_centers/manufacturing/lithography/) - Aggregated coverage with the EUV/DUV/multi-patterning terminology defined.
 
 ### High-NA and Hyper-NA
 
@@ -349,14 +312,10 @@ lithography alone no longer does.
 double patterning at the tightest pitches — at the cost of a half-field (26 × 16.5 mm) exposure,
 which forces field stitching for large dies.
 
-- [ASML — EXE:5000 / High-NA EUV](https://www.asml.com/en/products/euv-lithography-systems) -
-  Specifications for the first-generation High-NA platform.
-- [Intel — High-NA EUV in the foundry](https://newsroom.intel.com/intel-foundry/intel-foundry-opens-new-frontier-chipmaking) -
-  Intel's account of installing and qualifying the first commercial High-NA tools.
-- [Tom's Hardware — First commercial EXE:5200B installation](https://www.tomshardware.com/tech-industry/semiconductors/intel-installs-industrys-first-commercial-high-na-euv-lithography-tool-asml-twinscan-exe-5200b-sets-the-stage-for-14a) -
-  Where High-NA sits relative to Intel 14A.
-- [Tom's Hardware — ASML lithography roadmap from DUV to Hyper-NA](https://www.tomshardware.com/tech-industry/semiconductors/asml-lithograpy-roadmap-examined-from-duv-to-hyper-na) -
-  The full scanner roadmap in one place, including what Hyper-NA (>0.55) would require.
+- [ASML — EXE:5000 / High-NA EUV](https://www.asml.com/en/products/euv-lithography-systems) - Specifications for the first-generation High-NA platform.
+- [Intel — High-NA EUV in the foundry](https://newsroom.intel.com/intel-foundry/intel-foundry-opens-new-frontier-chipmaking) - Intel's account of installing and qualifying the first commercial High-NA tools.
+- [Tom's Hardware — First commercial EXE:5200B installation](https://www.tomshardware.com/tech-industry/semiconductors/intel-installs-industrys-first-commercial-high-na-euv-lithography-tool-asml-twinscan-exe-5200b-sets-the-stage-for-14a) - Where High-NA sits relative to Intel 14A.
+- [Tom's Hardware — ASML lithography roadmap from DUV to Hyper-NA](https://www.tomshardware.com/tech-industry/semiconductors/asml-lithograpy-roadmap-examined-from-duv-to-hyper-na) - The full scanner roadmap in one place, including what Hyper-NA (>0.55) would require.
 - [Anamorphic imaging and field stitching](https://www.lithoguru.com/scientist/essays/) - Mack's
   essays on why anamorphic optics halve the field and what that costs designers.
 
@@ -366,13 +325,10 @@ toward chiplets — see [section 9](#9-chiplets-and-die-to-die-interfaces).
 
 ### Sources, Optics, Masks and Pellicles
 
-- [EUV source technology — laser-produced plasma](https://www.asml.com/en/technology/lithography-principles) -
-  Tin droplets, pre-pulse/main-pulse CO₂ lasers, collector mirror lifetime, and why source power is
+- [EUV source technology — laser-produced plasma](https://www.asml.com/en/technology/lithography-principles) - Tin droplets, pre-pulse/main-pulse CO₂ lasers, collector mirror lifetime, and why source power is
   the throughput limiter.
-- [Photomask technology at SPIE](https://spie.org/conferences-and-exhibitions/photomask-technology-and-euv-lithography) -
-  Mask blanks, absorber materials, defect repair, and curvilinear mask writing.
-- [Low-n and high-k EUV absorbers](https://semiengineering.com/tag/euv-masks/) -
-  Replacing TaBN absorbers to reduce mask-3D effects at High-NA.
+- [Photomask technology at SPIE](https://spie.org/conferences-and-exhibitions/photomask-technology-and-euv-lithography) - Mask blanks, absorber materials, defect repair, and curvilinear mask writing.
+- [Low-n and high-k EUV absorbers](https://semiengineering.com/tag/euv-masks/) - Replacing TaBN absorbers to reduce mask-3D effects at High-NA.
 - [Multi-beam mask writers](https://www.ims.co.at/) - IMS Nanofabrication; curvilinear ILT masks
   are only writable because multi-beam writers decoupled write time from shot count.
 - [EUV pellicles](https://semiengineering.com/euv-pellicles-finally-ready/) - Transmission,
@@ -386,30 +342,22 @@ toward chiplets — see [section 9](#9-chiplets-and-die-to-die-interfaces).
   shot-noise argument: EUV photons are ~14× more energetic than 193 nm photons, so a given dose
   contains far fewer of them, and randomness becomes a yield-limiting defect mechanism
   (microbridges, broken lines, missing contacts).
-- [Metal-oxide resists — Lam / Inpria dry resist](https://www.lamresearch.com/products/) -
-  Dry deposition and dry development of metal-oxide resist; higher EUV absorption at lower dose.
-- [Applied Materials / TEL resist processing](https://www.tel.com/product/) -
-  Track systems and the coat/develop side of the resist story.
-- [Journal of Micro/Nanopatterning, Materials, and Metrology (JM3)](https://www.spiedigitallibrary.org/journals/journal-of-micro-nanopatterning-materials-and-metrology) -
-  Where resist and stochastics papers live outside conference proceedings.
-- [ALE and selective deposition for EUV resist improvement (patent)](https://patents.google.com/patent/WO2020223011A1/en) -
-  Illustrative of the "fix the resist with a process module" strategy: selective caps, scum
+- [Metal-oxide resists — Lam / Inpria dry resist](https://www.lamresearch.com/products/) - Dry deposition and dry development of metal-oxide resist; higher EUV absorption at lower dose.
+- [Applied Materials / TEL resist processing](https://www.tel.com/product/) - Track systems and the coat/develop side of the resist story.
+- [Journal of Micro/Nanopatterning, Materials, and Metrology (JM3)](https://www.spiedigitallibrary.org/journals/journal-of-micro-nanopatterning-materials-and-metrology) - Where resist and stochastics papers live outside conference proceedings.
+- [ALE and selective deposition for EUV resist improvement (patent)](https://patents.google.com/patent/WO2020223011A1/en) - Illustrative of the "fix the resist with a process module" strategy: selective caps, scum
   removal, divot fill.
 
 ### Multi-Patterning, DSA and Nanoimprint
 
-- [SADP / SAQP explained](https://semiengineering.com/tag/multi-patterning/) -
-  Self-aligned double and quadruple patterning, spacer deposition, mandrel pull, and the pitch
+- [SADP / SAQP explained](https://semiengineering.com/tag/multi-patterning/) - Self-aligned double and quadruple patterning, spacer deposition, mandrel pull, and the pitch
   walking that results.
-- [Litho-etch-litho-etch and cut masks](https://semiengineering.com/tag/multi-patterning/) -
-  The overlay budget arithmetic that made EUV economically inevitable.
-- [Directed self-assembly (DSA)](https://spie.org/conferences-and-exhibitions/advanced-lithography-and-patterning) -
-  Block copolymers for pitch multiplication and via rectification; a perennial "five years away"
+- [Litho-etch-litho-etch and cut masks](https://semiengineering.com/tag/multi-patterning/) - The overlay budget arithmetic that made EUV economically inevitable.
+- [Directed self-assembly (DSA)](https://spie.org/conferences-and-exhibitions/advanced-lithography-and-patterning) - Block copolymers for pitch multiplication and via rectification; a perennial "five years away"
   technology that keeps finding niche uses.
 - [Canon nanoimprint lithography](https://global.canon/en/news/2023/20231013.html) - NIL as a
   low-cost, low-throughput alternative for specific layers and for memory.
-- [Semiconductor Engineering — Nanoimprint's second act](https://semiengineering.com/tag/nanoimprint-lithography/) -
-  Realistic assessment of where NIL actually competes.
+- [Semiconductor Engineering — Nanoimprint's second act](https://semiengineering.com/tag/nanoimprint-lithography/) - Realistic assessment of where NIL actually competes.
 
 ### Computational Lithography
 
@@ -417,8 +365,7 @@ The mask is no longer a picture of the design. Between the two sits OPC, sub-res
 features, source-mask optimization, and increasingly full inverse lithography — a nonconvex
 optimization run over petabytes of layout, now routinely GPU-accelerated.
 
-- [Inverse lithography technology overview](https://semiengineering.com/tag/inverse-lithography-technology/) -
-  What ILT changes versus rule- and model-based OPC.
+- [Inverse lithography technology overview](https://semiengineering.com/tag/inverse-lithography-technology/) - What ILT changes versus rule- and model-based OPC.
 - [NVIDIA cuLitho](https://developer.nvidia.com/culitho) - GPU-accelerated computational
   lithography library, adopted by TSMC and Synopsys; the reason full-chip curvilinear ILT became
   tractable.
@@ -465,8 +412,7 @@ software — largely because the ICCAD 2013 mask-optimization benchmark gave aca
   learning-based ILT lineage, with code links from the authors' page.
 - [ILILT — implicit learning of ILT (arXiv)](https://arxiv.org/abs/2405.03574) - Recent approach
   that avoids explicit iterative optimization at inference time.
-- [Open-source differentiable lithography imaging framework (arXiv)](https://arxiv.org/abs/2409.15306) -
-  End-to-end differentiable Abbe/Hopkins imaging, so lithography models can sit inside a training
+- [Open-source differentiable lithography imaging framework (arXiv)](https://arxiv.org/abs/2409.15306) - End-to-end differentiable Abbe/Hopkins imaging, so lithography models can sit inside a training
   loop.
 
 **Benchmarks**
@@ -519,62 +465,46 @@ software — largely because the ICCAD 2013 mask-optimization benchmark gave aca
 
 - [Atomic layer deposition — BALD Engineering](https://www.blog.baldengineering.com/) - Long-running
   ALD blog covering precursors, conferences, and industrial adoption; unusually deep archive.
-- [Area-selective deposition (ASD)](https://link.springer.com/article/10.1007/s12541-025-01337-z) -
-  Review covering ASD, atomic layer annealing, and ALE together. ASD is how the industry hopes to
+- [Area-selective deposition (ASD)](https://link.springer.com/article/10.1007/s12541-025-01337-z) - Review covering ASD, atomic layer annealing, and ALE together. ASD is how the industry hopes to
   get self-aligned structures without extra masks.
 - [ASD Workshop](https://asd2026.avs.org/) - The dedicated annual workshop; abstracts are the
   best index of what selectivity is achievable on which material pairs.
 - [ALD conference (AVS)](https://ald2026.avs.org/) - Primary venue for ALD/ALE
   process chemistry.
-- [Area-selective ALD of Ru — defect formation mechanisms (PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11280396/) -
-  Concrete example of why selectivity degrades and how it is measured.
-- [Applied Materials — deposition products](https://www.appliedmaterials.com/us/en/semiconductor/products.html) -
-  PVD, CVD, ALD, and epi product families; useful for mapping process steps to actual toolsets.
+- [Area-selective ALD of Ru — defect formation mechanisms (PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11280396/) - Concrete example of why selectivity degrades and how it is measured.
+- [Applied Materials — deposition products](https://www.appliedmaterials.com/us/en/semiconductor/products.html) - PVD, CVD, ALD, and epi product families; useful for mapping process steps to actual toolsets.
 
 ### Etch
 
-- [Lam Research — cryogenic etching](https://www.lamresearch.com/products/our-solutions/cryogenic-etching/) -
-  Cryo 3.0 combines cryogenic wafer temperature with pulsed plasma ALE for high-aspect-ratio
+- [Lam Research — cryogenic etching](https://www.lamresearch.com/products/our-solutions/cryogenic-etching/) - Cryo 3.0 combines cryogenic wafer temperature with pulsed plasma ALE for high-aspect-ratio
   features; the enabling technology for 3D NAND beyond ~300 layers.
-- [Atomic layer etching for extreme manufacturing (Springer)](https://link.springer.com/article/10.1007/s41871-026-00297-w) -
-  Review of ALE mechanisms and where atomic-scale precision is actually required.
-- [Cryo-ALE and HAR etch physics](https://drmanager.github.io/2026/02/06/ale-high-aspect-ratio-etching-semiconductor/) -
-  Why sub −100 °C substrate temperature suppresses lateral etch and stabilizes sidewall passivation.
+- [Atomic layer etching for extreme manufacturing (Springer)](https://link.springer.com/article/10.1007/s41871-026-00297-w) - Review of ALE mechanisms and where atomic-scale precision is actually required.
+- [Cryo-ALE and HAR etch physics](https://drmanager.github.io/2026/02/06/ale-high-aspect-ratio-etching-semiconductor/) - Why sub −100 °C substrate temperature suppresses lateral etch and stabilizes sidewall passivation.
 - [TEL etch systems](https://www.tel.com/product/etch.html) - Tokyo Electron's plasma etch
   portfolio, including their cryogenic HAR approach.
 - [AVS Plasma Science and Technology](https://www.avs.org/) - The academic community behind plasma
   etch modeling; also home to the *Journal of Vacuum Science & Technology*.
-- [High-aspect-ratio etch challenges](https://semiengineering.com/tag/high-aspect-ratio-etch/) -
-  Bowing, twisting, tilting, and aspect-ratio-dependent etch, explained without a paywall.
+- [High-aspect-ratio etch challenges](https://semiengineering.com/tag/high-aspect-ratio-etch/) - Bowing, twisting, tilting, and aspect-ratio-dependent etch, explained without a paywall.
 
 ### CMP, Cleans, Implant, Anneal and Epitaxy
 
-- [CMP fundamentals](https://semiengineering.com/tag/chemical-mechanical-polishing/) -
-  Slurry chemistry, pad conditioning, dishing/erosion, and why CMP dominates defectivity budgets.
-- [Wafer cleaning and surface preparation](https://semiengineering.com/tag/wafer-cleaning/) -
-  RCA cleans, dilute chemistries, cryo-aerosol, and the pattern-collapse problem at high aspect
+- [CMP fundamentals](https://semiengineering.com/tag/chemical-mechanical-polishing/) - Slurry chemistry, pad conditioning, dishing/erosion, and why CMP dominates defectivity budgets.
+- [Wafer cleaning and surface preparation](https://semiengineering.com/tag/wafer-cleaning/) - RCA cleans, dilute chemistries, cryo-aerosol, and the pattern-collapse problem at high aspect
   ratios.
-- [Ion implantation](https://semiengineering.com/tag/ion-implantation/) -
-  Beamline vs. plasma doping, and the shift toward conformal doping for 3D structures.
-- [Millisecond and laser annealing](https://www.appliedmaterials.com/us/en/semiconductor/products.html) -
-  Thermal budget is the binding constraint for sequential 3D integration; anneal technology is how
+- [Ion implantation](https://semiengineering.com/tag/ion-implantation/) - Beamline vs. plasma doping, and the shift toward conformal doping for 3D structures.
+- [Millisecond and laser annealing](https://www.appliedmaterials.com/us/en/semiconductor/products.html) - Thermal budget is the binding constraint for sequential 3D integration; anneal technology is how
   you buy activation without diffusion.
-- [Selective epitaxial growth for source/drain](https://semiengineering.com/knowledge_centers/manufacturing/process/epitaxy/) -
-  Strain engineering via SiGe/SiP source-drain, still the main mobility booster.
-- [Advanced Semiconductor Manufacturing Conference (ASMC)](https://www.semi.org/en/connect/events) -
-  The manufacturing-focused IEEE/SEMI conference; process module papers with actual fab data.
+- [Selective epitaxial growth for source/drain](https://semiengineering.com/knowledge_centers/manufacturing/process/epitaxy/) - Strain engineering via SiGe/SiP source-drain, still the main mobility booster.
+- [Advanced Semiconductor Manufacturing Conference (ASMC)](https://www.semi.org/en/connect/events) - The manufacturing-focused IEEE/SEMI conference; process module papers with actual fab data.
 
 ### Materials, Precursors and Gases
 
-- [SEMI — Materials market data](https://www.semi.org/en/products-services/market-data/materials) -
-  Wafer, gas, chemical, photoresist, and substrate market sizing.
-- [Electronic Materials — Merck/EMD, JSR, Shin-Etsu, TOK, Sumitomo](https://www.emdgroup.com/en/expertise/electronics.html) -
-  The materials supply chain is more concentrated than the equipment supply chain; resist and mask
+- [SEMI — Materials market data](https://www.semi.org/en/products-services/market-data/materials) - Wafer, gas, chemical, photoresist, and substrate market sizing.
+- [Electronic Materials — Merck/EMD, JSR, Shin-Etsu, TOK, Sumitomo](https://www.emdgroup.com/en/expertise/electronics.html) - The materials supply chain is more concentrated than the equipment supply chain; resist and mask
   blank supply are effectively duopolies.
 - [Ultra-high-purity gases and precursors](https://www.linde.com/) - Bulk and
   specialty gas supply, including the fluorinated-gas emissions problem.
-- [Critical minerals and semiconductor materials](https://www.csis.org/programs/economics-program-and-scholl-chair-international-business) -
-  CSIS's economics program tracks gallium, germanium, neon, and rare-earth supply risk.
+- [Critical minerals and semiconductor materials](https://www.csis.org/programs/economics-program-and-scholl-chair-international-business) - CSIS's economics program tracks gallium, germanium, neon, and rare-earth supply risk.
 - [Materials Project](https://next-gen.materialsproject.org/) - Open computed-materials database;
   the practical starting point for screening dielectric, barrier, and channel candidates.
 
@@ -592,8 +522,7 @@ software — largely because the ICCAD 2013 mask-optimization benchmark gave aca
 | Bonding / packaging | [BESI](https://www.besi.com/), [ASMPT](https://www.asmpt.com/), [EV Group](https://www.evgroup.com/), [SUSS MicroTec](https://www.suss.com/), [Kulicke & Soffa](https://www.kns.com/) |
 | Test / ATE | [Advantest](https://www.advantest.com/), [Teradyne](https://www.teradyne.com/), [Cohu](https://www.cohu.com/) |
 
-- [SEMI — Equipment market data (Worldwide Fab Forecast)](https://www.semi.org/en/products-services/market-data) -
-  Fab-by-fab capacity, equipment spending, and construction tracking. The industry's standard
+- [SEMI — Equipment market data (Worldwide Fab Forecast)](https://www.semi.org/en/products-services/market-data) - Fab-by-fab capacity, equipment spending, and construction tracking. The industry's standard
   planning dataset.
 - [VLSI Research / TechInsights equipment rankings](https://www.techinsights.com/) - Annual
   market-share tables by segment.
@@ -611,17 +540,12 @@ not a measurement. This section is why metrology capex has grown faster than lit
   dimension small-angle X-ray scattering is currently the only non-destructive technique that
   resolves sub-nanometer sidewall angle, pitch walking, inner-spacer geometry, and channel-hole
   tilt through multi-micron-deep structures.
-- [Metrology challenges in sub-5 nm nodes](https://appliedphysicsusa.com/blogs/metrology-sub-5nm-challenges/) -
-  Why optical scatterometry hits opacity and multi-reflection limits and CD-SEM cannot penetrate
+- [Metrology challenges in sub-5 nm nodes](https://appliedphysicsusa.com/blogs/metrology-sub-5nm-challenges/) - Why optical scatterometry hits opacity and multi-reflection limits and CD-SEM cannot penetrate
   deep structures without damage.
-- [X-ray metrology market and technology](https://www.exponentialindustry.com/blog/2026-07-30-x-ray-semiconductor-metrology-market/) -
-  XRF, XRD, XPS, and CD-SAXS mapped to the process steps that need them.
-- [Metrology for next-generation 3D NAND](https://semiengineering.com/metrology-digs-deep-to-produce-next-generation-3d-nand/) -
-  High-aspect-ratio measurement, which is now a packaging problem too (TSVs, deep vias).
-- [SPIE Metrology, Inspection, and Process Control](https://spie.org/conferences-and-exhibitions/advanced-lithography-and-patterning) -
-  The primary conference; proceedings volumes are the reference literature.
-- [Atom probe tomography and TEM for devices](https://www.bruker.com/en/products-and-solutions/microscopes.html) -
-  Destructive but atomically resolved; how dopant profiles in nanosheets are actually confirmed.
+- [X-ray metrology market and technology](https://www.exponentialindustry.com/blog/2026-07-30-x-ray-semiconductor-metrology-market/) - XRF, XRD, XPS, and CD-SAXS mapped to the process steps that need them.
+- [Metrology for next-generation 3D NAND](https://semiengineering.com/metrology-digs-deep-to-produce-next-generation-3d-nand/) - High-aspect-ratio measurement, which is now a packaging problem too (TSVs, deep vias).
+- [SPIE Metrology, Inspection, and Process Control](https://spie.org/conferences-and-exhibitions/advanced-lithography-and-patterning) - The primary conference; proceedings volumes are the reference literature.
+- [Atom probe tomography and TEM for devices](https://www.bruker.com/en/products-and-solutions/microscopes.html) - Destructive but atomically resolved; how dopant profiles in nanosheets are actually confirmed.
 - [Hybrid metrology](https://semiengineering.com/tag/hybrid-metrology/) - Combining
   optical, AFM, and X-ray data into one regression; the practical answer to any single technique
   being insufficient.
@@ -630,23 +554,16 @@ not a measurement. This section is why metrology capex has grown faster than lit
 
 - [KLA — inspection and review](https://www.kla.com/products) - Brightfield, darkfield, and e-beam
   inspection; the reference implementations for the whole category.
-- [E-beam inspection throughput problem](https://semiengineering.com/tag/e-beam-inspection/) -
-  Why multi-beam e-beam inspection is the most-attempted, least-delivered idea in metrology.
-- [Voltage contrast and physical failure analysis](https://semiengineering.com/knowledge_centers/manufacturing/process/failure-analysis/) -
-  How buried opens and shorts are localized before anyone cross-sections a wafer.
-- [Automated defect classification (ADC)](https://semiengineering.com/tag/defect-classification/) -
-  The first production ML application in fabs, predating the current wave by two decades.
+- [E-beam inspection throughput problem](https://semiengineering.com/tag/e-beam-inspection/) - Why multi-beam e-beam inspection is the most-attempted, least-delivered idea in metrology.
+- [Voltage contrast and physical failure analysis](https://semiengineering.com/knowledge_centers/manufacturing/process/failure-analysis/) - How buried opens and shorts are localized before anyone cross-sections a wafer.
+- [Automated defect classification (ADC)](https://semiengineering.com/tag/defect-classification/) - The first production ML application in fabs, predating the current wave by two decades.
 
 ### Yield Modeling and Process Control
 
-- [Yield models — Poisson, Murphy, negative binomial](https://en.wikipedia.org/wiki/Semiconductor_device_fabrication) -
-  D0 and clustering factor; the arithmetic behind every chiplet-vs-monolithic argument.
-- [Statistical process control in semiconductor manufacturing](https://www.semi.org/en/connect/events) -
-  ASMC is where the practical SPC/APC work is published.
-- [Run-to-run control and virtual metrology](https://semiengineering.com/tag/virtual-metrology/) -
-  Predicting a measurement instead of taking it; the highest-value ML deployment in most fabs.
-- [Yield learning and defect Pareto methodology](https://semiengineering.com/knowledge_centers/manufacturing/process/yield/) -
-  How a fab actually decides what to fix next.
+- [Yield models — Poisson, Murphy, negative binomial](https://en.wikipedia.org/wiki/Semiconductor_device_fabrication) - D0 and clustering factor; the arithmetic behind every chiplet-vs-monolithic argument.
+- [Statistical process control in semiconductor manufacturing](https://www.semi.org/en/connect/events) - ASMC is where the practical SPC/APC work is published.
+- [Run-to-run control and virtual metrology](https://semiengineering.com/tag/virtual-metrology/) - Predicting a measurement instead of taking it; the highest-value ML deployment in most fabs.
+- [Yield learning and defect Pareto methodology](https://semiengineering.com/knowledge_centers/manufacturing/process/yield/) - How a fab actually decides what to fix next.
 - [SEMI E10 / OEE definitions](https://www.semi.org/en/products-services/standards) - The standard
   equipment-state model underneath every fab productivity metric.
 
@@ -660,24 +577,18 @@ logic.
 
 ### DRAM
 
-- [SK hynix DRAM roadmap — 4F2 VG and 3D DRAM](https://www.tweaktown.com/news/105694/sk-hynix-unveils-dram-memory-chip-roadmap-for-the-next-30-years-4f2vg-tech-3d-and-more/index.html) -
-  The long-range plan: 6F2 → 4F2 with vertical-channel/vertical-gate transistors, then 3D DRAM.
-- [Samsung — 3D DRAM on the roadmap](https://www.tomshardware.com/pc-components/dram/samsung-outlines-plans-for-3d-dram-which-will-come-in-the-second-half-of-the-decade) -
-  Timing and architecture direction.
+- [SK hynix DRAM roadmap — 4F2 VG and 3D DRAM](https://www.tweaktown.com/news/105694/sk-hynix-unveils-dram-memory-chip-roadmap-for-the-next-30-years-4f2vg-tech-3d-and-more/index.html) - The long-range plan: 6F2 → 4F2 with vertical-channel/vertical-gate transistors, then 3D DRAM.
+- [Samsung — 3D DRAM on the roadmap](https://www.tomshardware.com/pc-components/dram/samsung-outlines-plans-for-3d-dram-which-will-come-in-the-second-half-of-the-decade) - Timing and architecture direction.
 - [Baby steps toward 3D DRAM](https://semiengineering.com/baby-steps-towards-3d-dram/) - Honest
   assessment of what stacking DRAM actually requires (capacitor-less cells, IGZO channels, or
   wafer-bonded arrays).
-- [Lam — learning from NAND for the 3D DRAM transition](https://newsroom.lamresearch.com/learning-from-nand-3d-dram-transition-ai-era) -
-  Equipment-vendor perspective on which NAND lessons transfer.
-- [4F2 DRAM with vertical thin-film transistor (patent)](https://patents.google.com/?q=4F2+DRAM+vertical+channel+transistor) -
-  Patent literature is the best public source on cell architecture specifics.
+- [Lam — learning from NAND for the 3D DRAM transition](https://newsroom.lamresearch.com/learning-from-nand-3d-dram-transition-ai-era) - Equipment-vendor perspective on which NAND lessons transfer.
+- [4F2 DRAM with vertical thin-film transistor (patent)](https://patents.google.com/?q=4F2+DRAM+vertical+channel+transistor) - Patent literature is the best public source on cell architecture specifics.
 
 ### 3D NAND
 
-- [NAND flash targets 1000 layers](https://semiengineering.com/nand-flash-targets-1000-layers/) -
-  String stacking, CMOS-under-array vs. CMOS-bonded-array, and the etch/metrology limits.
-- [Kioxia/SanDisk CBA and YMTC Xtacking](https://semiengineering.com/knowledge_centers/memory/non-volatile-memory/3d-nand/) -
-  Wafer-bonded periphery is the architecture that made hybrid bonding a volume technology.
+- [NAND flash targets 1000 layers](https://semiengineering.com/nand-flash-targets-1000-layers/) - String stacking, CMOS-under-array vs. CMOS-bonded-array, and the etch/metrology limits.
+- [Kioxia/SanDisk CBA and YMTC Xtacking](https://semiengineering.com/knowledge_centers/memory/non-volatile-memory/3d-nand/) - Wafer-bonded periphery is the architecture that made hybrid bonding a volume technology.
 - [TEL cryogenic etch for 400-layer NAND](https://www.tel.com/) - Ultra-fast deep etch with
   substantially lower global-warming-potential emissions.
 
@@ -686,24 +597,17 @@ logic.
 - [JEDEC JESD270-4 — HBM4](https://www.jedec.org/standards-documents/docs/jesd270-4a) - The
   standard itself: 2048-bit interface per stack, with data rates specified up to 8 GT/s and beyond
   in the amended revision.
-- [JEDEC — HBM4 press release](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing) -
-  Official summary of bandwidth, efficiency, and capacity targets.
-- [JEDEC — SPHBM4](https://www.jedec.org/news/pressreleases/jedec%C2%AE-prepares-sphbm4-standard-deliver-hbm4-level-throughput-reduced-pin-count) -
-  HBM4-level throughput at reduced pin count, aimed at cost-sensitive and mobile-adjacent uses.
-- [Siemens — HBM3E and HBM4 IC design guide](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/) -
-  Design-side treatment: base-die logic process, channel count, and signal integrity.
-- [EE Times — the push toward custom memory](https://www.eetimes.com/beyond-bandwidth-the-industry-is-striving-for-custom-memory-part-1/) -
-  Custom HBM base dies with embedded logic, and what standardization gives up.
-- [EE Times — Rambus HBM4E controller and C-HBM4E](https://www.eetimes.com/rambus-unveils-hbm4e-controller-16-gt-s-2048-bit-interface-enabling-c-hbm4e/) -
-  The controller side of custom HBM, including UCIe-interfaced variants.
+- [JEDEC — HBM4 press release](https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing) - Official summary of bandwidth, efficiency, and capacity targets.
+- [JEDEC — SPHBM4](https://www.jedec.org/news/pressreleases/jedec%C2%AE-prepares-sphbm4-standard-deliver-hbm4-level-throughput-reduced-pin-count) - HBM4-level throughput at reduced pin count, aimed at cost-sensitive and mobile-adjacent uses.
+- [Siemens — HBM3E and HBM4 IC design guide](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/) - Design-side treatment: base-die logic process, channel count, and signal integrity.
+- [EE Times — the push toward custom memory](https://www.eetimes.com/beyond-bandwidth-the-industry-is-striving-for-custom-memory-part-1/) - Custom HBM base dies with embedded logic, and what standardization gives up.
+- [EE Times — Rambus HBM4E controller and C-HBM4E](https://www.eetimes.com/rambus-unveils-hbm4e-controller-16-gt-s-2048-bit-interface-enabling-c-hbm4e/) - The controller side of custom HBM, including UCIe-interfaced variants.
 
 ### Emerging Non-Volatile Memory
 
-- [MRAM, RRAM, PCM and FeFET status](https://semiengineering.com/knowledge_centers/memory/non-volatile-memory/) -
-  Where each has actually shipped: embedded MRAM in foundry MCU nodes, PCM in storage-class memory,
+- [MRAM, RRAM, PCM and FeFET status](https://semiengineering.com/knowledge_centers/memory/non-volatile-memory/) - Where each has actually shipped: embedded MRAM in foundry MCU nodes, PCM in storage-class memory,
   FeFET still mostly in research.
-- [Hafnium-oxide ferroelectrics](https://www.nature.com/subjects/ferroelectrics-and-multiferroics) -
-  The CMOS-compatible ferroelectric that made FeFET and FeRAM interesting again.
+- [Hafnium-oxide ferroelectrics](https://www.nature.com/subjects/ferroelectrics-and-multiferroics) - The CMOS-compatible ferroelectric that made FeFET and FeRAM interesting again.
 - [Compute-in-memory surveys](https://arxiv.org/list/cs.AR/recent) - The main application driver
   for emerging NVM; search arXiv cs.AR and cs.ET for current surveys.
 - [Stanford N3XT / monolithic 3D memory-logic](https://systemx.stanford.edu/) - RRAM plus CNFET
@@ -718,24 +622,17 @@ lever on system performance, and it is currently the binding capacity constraint
 
 ### Primers and Taxonomy
 
-- [A comprehensive primer on advanced semiconductor packaging](https://www.viksnewsletter.com/p/a-comprehensive-primer-on-advanced-packaging) -
-  The best single free explainer: wire bond → flip chip → fan-out → 2.5D → 3D, with the reasoning
+- [A comprehensive primer on advanced semiconductor packaging](https://www.viksnewsletter.com/p/a-comprehensive-primer-on-advanced-packaging) - The best single free explainer: wire bond → flip chip → fan-out → 2.5D → 3D, with the reasoning
   for each transition.
-- [Heterogeneous Integration Roadmap chapters](https://eps.ieee.org/technology/heterogeneous-integration-roadmap/) -
-  Free, authoritative, and organized exactly the way this section is.
+- [Heterogeneous Integration Roadmap chapters](https://eps.ieee.org/technology/heterogeneous-integration-roadmap/) - Free, authoritative, and organized exactly the way this section is.
 - [3D InCites](https://www.3dincites.com/) - The trade publication dedicated to advanced packaging.
   Phil Garrou's *IFTLE* column is the closest thing the field has to a running technical journal.
-- [Semiconductor Engineering — Advanced Packaging knowledge center](https://semiengineering.com/knowledge_centers/packaging/) -
-  Terminology plus a decade of linked coverage.
-- [TechInsights — Advanced packaging and chiplets](https://www.techinsights.com/chiplets/advanced-packaging-and-chiplets-unleashing-semiconductor-innovation) -
-  Teardown-grounded overview of what is actually inside shipping packages.
-- [Semiconductor Packaging workshop (open course material)](https://github.com/Lakshana3/Semiconductor_Packaging) -
-  Workshop repository bridging chip design and packaging, from wire bonding through 2.5D/3D
+- [Semiconductor Engineering — Advanced Packaging knowledge center](https://semiengineering.com/knowledge_centers/packaging/) - Terminology plus a decade of linked coverage.
+- [TechInsights — Advanced packaging and chiplets](https://www.techinsights.com/chiplets/advanced-packaging-and-chiplets-unleashing-semiconductor-innovation) - Teardown-grounded overview of what is actually inside shipping packages.
+- [Semiconductor Packaging workshop (open course material)](https://github.com/Lakshana3/Semiconductor_Packaging) - Workshop repository bridging chip design and packaging, from wire bonding through 2.5D/3D
   chiplet assembly.
-- [Semiconductor Packaging fundamentals notes](https://github.com/arunkpv/Semiconductor-Packaging) -
-  Course-style notes covering packaging fundamentals.
-- [Chiplet Marketplace wiki — advanced packaging](https://chiplet-marketplace.com/library/wiki/advanced-packaging) -
-  Vendor-neutral wiki with a usable taxonomy of package types.
+- [Semiconductor Packaging fundamentals notes](https://github.com/arunkpv/Semiconductor-Packaging) - Course-style notes covering packaging fundamentals.
+- [Chiplet Marketplace wiki — advanced packaging](https://chiplet-marketplace.com/library/wiki/advanced-packaging) - Vendor-neutral wiki with a usable taxonomy of package types.
 
 **Taxonomy cheat sheet**
 
@@ -751,22 +648,18 @@ lever on system performance, and it is currently the binding capacity constraint
 
 ### 2.5D Interposers and Bridges
 
-- [TSMC 3DFabric / CoWoS](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/3DFabric.htm) -
-  Official landing page for CoWoS-S (silicon interposer), CoWoS-R (RDL interposer), CoWoS-L
+- [TSMC 3DFabric / CoWoS](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/3DFabric.htm) - Official landing page for CoWoS-S (silicon interposer), CoWoS-R (RDL interposer), CoWoS-L
   (interposer with embedded local silicon interconnect bridges), InFO, and SoIC.
 - [Intel EMIB](https://www.intel.com/content/www/us/en/foundry/advanced-packaging.html) - Embedded
   Multi-die Interconnect Bridge: a small silicon bridge embedded in organic substrate, avoiding a
   full-reticle interposer and its TSVs.
-- [Intel EMIB with glass core (NEPCON 2026)](https://insights.trendforce.com/p/glass-substrate-development) -
-  Bridge plus glass core in one package; a preview of where 2.5D substrates are heading.
+- [Intel EMIB with glass core (NEPCON 2026)](https://insights.trendforce.com/p/glass-substrate-development) - Bridge plus glass core in one package; a preview of where 2.5D substrates are heading.
 - [Amkor S-SWIFT and S-Connect](https://amkor.com/packaging/) - OSAT
   alternatives to foundry-owned 2.5D flows.
 - [Samsung I-Cube / H-Cube](https://semiconductor.samsung.com/foundry/advanced-package/) - Samsung's
   2.5D families.
-- [SemiAnalysis — packaging developments from ECTC](https://semianalysis.substack.com/p/packaging-developments-from-ectc) -
-  Conference readout on where interposer and bridge technology actually is.
-- [Interposer design considerations](https://semiengineering.com/knowledge_centers/packaging/2-5d-ic/) -
-  Micro-bump pitch, RDL line/space, and reticle-stitching limits for large interposers.
+- [SemiAnalysis — packaging developments from ECTC](https://semianalysis.substack.com/p/packaging-developments-from-ectc) - Conference readout on where interposer and bridge technology actually is.
+- [Interposer design considerations](https://semiengineering.com/knowledge_centers/packaging/2-5d-ic/) - Micro-bump pitch, RDL line/space, and reticle-stitching limits for large interposers.
 
 ### 3D Stacking and Hybrid Bonding
 
@@ -775,23 +668,17 @@ dielectric-to-dielectric bonds. That removes the underfill, removes the bump hei
 interconnect pitch scale below 10 µm — into a regime where vertical wires start to look like on-die
 wires.
 
-- [Intel — Foveros Direct 3D technical brief (PDF)](https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-11/foveros-direct-3d-tech-brief.pdf) -
-  Vendor technical brief on bumpless Cu–Cu bonding, sub-10 µm pitch, and the design rules that
+- [Intel — Foveros Direct 3D technical brief (PDF)](https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-11/foveros-direct-3d-tech-brief.pdf) - Vendor technical brief on bumpless Cu–Cu bonding, sub-10 µm pitch, and the design rules that
   follow.
-- [TSMC SoIC](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/3DFabric.htm) -
-  System on Integrated Chips: bumpless front-end 3D stacking, currently around 9 µm pitch in
+- [TSMC SoIC](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/3DFabric.htm) - System on Integrated Chips: bumpless front-end 3D stacking, currently around 9 µm pitch in
   production and used together with CoWoS-L in flagship AI parts.
-- [Semiconductor Engineering — Making hybrid bonding better](https://semiengineering.com/making-hybrid-bonding-better/) -
-  The practical problems: dishing control, surface activation, particle sensitivity, and D2W
+- [Semiconductor Engineering — Making hybrid bonding better](https://semiengineering.com/making-hybrid-bonding-better/) - The practical problems: dishing control, surface activation, particle sensitivity, and D2W
   placement accuracy.
-- [TechInsights — Hybrid bonding, tomorrow's interconnect](https://library.techinsights.com/hg-asset/10147ff7-c189-4040-871f-a113cae34dc0) -
-  Cross-sections of shipping hybrid-bonded devices.
+- [TechInsights — Hybrid bonding, tomorrow's interconnect](https://library.techinsights.com/hg-asset/10147ff7-c189-4040-871f-a113cae34dc0) - Cross-sections of shipping hybrid-bonded devices.
 - [Adeia (Xperi) DBI / DBI Ultra](https://www.adeia.com/) - The licensed
   direct bond interconnect technology underneath much of the industry's W2W and D2W capability.
-- [Yole — hybrid bonding interview with Adeia](https://www.yolegroup.com/player-interviews/hybrid-bonding-latest-advancements-2-5d-3d-packaging-industry-an-interview-with-adeia/) -
-  Market and roadmap framing.
-- [IBM — D2W and W2W hybrid bonding below 25 µm pitch](https://research.ibm.com/publications/d2w-and-w2w-hybrid-bonding-system-with-below-25-micron-pitch-for-3d-chiplet-ai-applications) -
-  Research-lab account of building the bonding system, not just using one.
+- [Yole — hybrid bonding interview with Adeia](https://www.yolegroup.com/player-interviews/hybrid-bonding-latest-advancements-2-5d-3d-packaging-industry-an-interview-with-adeia/) - Market and roadmap framing.
+- [IBM — D2W and W2W hybrid bonding below 25 µm pitch](https://research.ibm.com/publications/d2w-and-w2w-hybrid-bonding-system-with-below-25-micron-pitch-for-3d-chiplet-ai-applications) - Research-lab account of building the bonding system, not just using one.
 - [AMD 3D V-Cache](https://www.amd.com/en/technologies/3d-v-cache) - The first high-volume consumer
   product built on hybrid-bonded logic-on-logic stacking; a useful concrete reference design.
 - [ECTC — Electronic Components and Technology Conference](https://www.ectc.net/) - The packaging
@@ -804,50 +691,37 @@ research. Intel has publicly described Foveros pitch progressing from ~50 µm (2
 
 ### Fan-Out and Panel-Level Packaging
 
-- [TSMC InFO](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/3DFabric.htm) -
-  Integrated Fan-Out; the technology that put TSMC in packaging and shipped in mobile APs before
+- [TSMC InFO](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/3DFabric.htm) - Integrated Fan-Out; the technology that put TSMC in packaging and shipped in mobile APs before
   anything else.
-- [Fan-out wafer-level packaging overview](https://semiengineering.com/tag/fan-out-wafer-level-packaging/) -
-  Chip-first vs. chip-last, die shift, and warpage — the three problems FOWLP always has.
-- [TSMC CoPoS — chip-on-panel-on-substrate](https://www.trendforce.com/news/2026/04/13/news-tsmc-advances-panel-level-packaging-copos-pilot-line-reportedly-set-for-june-completion-2028-29-ramp-eyed/) -
-  Panel-level packaging as the escape from round-wafer area inefficiency for very large packages.
-- [Panel size standardization](https://www.trendforce.com/news/2026/05/19/news-equipment-maker-schmid-flags-tsmc-panel-level-packaging-push-310x310mm-progress-glass-integration-under-review/) -
-  310 × 310 mm, 510 × 515 mm, and 600 × 600 mm are converging as the industry panel formats.
+- [Fan-out wafer-level packaging overview](https://semiengineering.com/tag/fan-out-wafer-level-packaging/) - Chip-first vs. chip-last, die shift, and warpage — the three problems FOWLP always has.
+- [TSMC CoPoS — chip-on-panel-on-substrate](https://www.trendforce.com/news/2026/04/13/news-tsmc-advances-panel-level-packaging-copos-pilot-line-reportedly-set-for-june-completion-2028-29-ramp-eyed/) - Panel-level packaging as the escape from round-wafer area inefficiency for very large packages.
+- [Panel size standardization](https://www.trendforce.com/news/2026/05/19/news-equipment-maker-schmid-flags-tsmc-panel-level-packaging-push-310x310mm-progress-glass-integration-under-review/) - 310 × 310 mm, 510 × 515 mm, and 600 × 600 mm are converging as the industry panel formats.
 - [FOPLP economics](https://www.yolegroup.com/) - Yole's packaging reports are the standard source
   for panel-vs-wafer cost crossover analysis.
 
 ### Substrates, Glass and RDL
 
-- [Glass core substrates — the new race](https://www.yolegroup.com/strategy-insights/glass-core-substrates-the-new-race-for-advanced-packaging-giants/) -
-  Why glass: better dimensional stability and flatness than ABF organic cores, enabling finer RDL
+- [Glass core substrates — the new race](https://www.yolegroup.com/strategy-insights/glass-core-substrates-the-new-race-for-advanced-packaging-giants/) - Why glass: better dimensional stability and flatness than ABF organic cores, enabling finer RDL
   and larger bodies.
-- [Absolics (SKC) glass substrate production](https://www.trendforce.com/news/2026/03/03/news-skc-reportedly-channels-over-half-of-%E2%82%A91t-capital-increase-into-absolics-to-fast-track-glass-substrates/) -
-  The first dedicated glass-substrate mass-production line, in Georgia.
-- [MIT Technology Review — future AI chips on glass](https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/) -
-  Accessible framing of the transition and its remaining obstacles (brittleness, via formation,
+- [Absolics (SKC) glass substrate production](https://www.trendforce.com/news/2026/03/03/news-skc-reportedly-channels-over-half-of-%E2%82%A91t-capital-increase-into-absolics-to-fast-track-glass-substrates/) - The first dedicated glass-substrate mass-production line, in Georgia.
+- [MIT Technology Review — future AI chips on glass](https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/) - Accessible framing of the transition and its remaining obstacles (brittleness, via formation,
   handling).
-- [IDTechEx — glass interposers and substrates](https://www.idtechex.com/en/research-article/glass-interposers-and-substrates-in-advanced-packaging/33856) -
-  Comparison against silicon interposer and organic RDL on cost, loss, and thermal expansion.
+- [IDTechEx — glass interposers and substrates](https://www.idtechex.com/en/research-article/glass-interposers-and-substrates-in-advanced-packaging/33856) - Comparison against silicon interposer and organic RDL on cost, loss, and thermal expansion.
 - [ABF substrate supply](https://semiengineering.com/tag/ic-substrates/) - Ajinomoto
   build-up film and the substrate-supply bottleneck that has repeatedly gated GPU shipments.
-- [RDL scaling — line/space roadmap](https://eps.ieee.org/technology/heterogeneous-integration-roadmap/) -
-  HIR's interconnect chapter has the authoritative RDL dimension roadmap.
+- [RDL scaling — line/space roadmap](https://eps.ieee.org/technology/heterogeneous-integration-roadmap/) - HIR's interconnect chapter has the authoritative RDL dimension roadmap.
 
 ### TSVs, Bumps and Bonding Equipment
 
-- [Through-silicon via fundamentals](https://semiengineering.com/knowledge_centers/packaging/3d-ic/through-silicon-via/) -
-  Via-middle vs. via-last, Cu pumping, keep-out zones, and the stress effects TSVs impose on nearby
+- [Through-silicon via fundamentals](https://semiengineering.com/knowledge_centers/packaging/3d-ic/through-silicon-via/) - Via-middle vs. via-last, Cu pumping, keep-out zones, and the stress effects TSVs impose on nearby
   devices.
-- [Wafer thinning and temporary bonding](https://www.evgroup.com/technologies/) -
-  Backside power and 3D stacking both require thinning to single-digit micrometers on a carrier.
-- [Thermocompression bonding and fluxless TCB](https://tspasemiconductor.substack.com/p/the-packaging-evolution-trilogy-hybrid) -
-  Where TCB still wins over hybrid bonding, and the fluxless transition.
+- [Wafer thinning and temporary bonding](https://www.evgroup.com/technologies/) - Backside power and 3D stacking both require thinning to single-digit micrometers on a carrier.
+- [Thermocompression bonding and fluxless TCB](https://tspasemiconductor.substack.com/p/the-packaging-evolution-trilogy-hybrid) - Where TCB still wins over hybrid bonding, and the fluxless transition.
 - [BESI hybrid bonding platforms](https://www.besi.com/products-technology/) - Die-to-wafer hybrid
   bonders and their placement-accuracy specifications.
 - [EV Group bonding technology](https://www.evgroup.com/technologies/) - Wafer-to-wafer fusion and
   hybrid bonding, plus the metrology to verify alignment.
-- [ASMPT advanced packaging](https://www.asmpt.com/en/) -
-  High-throughput die attach and TCB.
+- [ASMPT advanced packaging](https://www.asmpt.com/en/) - High-throughput die attach and TCB.
 - [2 µm pitch D2W hybrid bonding (ECTC 2025)](https://www.ectc.net/) - Surface protection during
   thinning and singulation is the enabling trick; see the ECTC 2025 program.
 
@@ -863,45 +737,33 @@ first-order architectural constraint, not a mechanical afterthought.
   and liquid cooling by editing the thermal netlist.
 - [HotSpot](https://github.com/uvahotspot/HotSpot) - The long-standing architecture-level compact
   thermal model; still the baseline everything else is compared against.
-- [MFIT — multi-fidelity thermal modeling for 2.5D/3D chiplets (arXiv)](https://arxiv.org/abs/2410.09188) -
-  Trading accuracy for speed in chiplet thermal exploration.
-- [Cool-3D — thermal-aware early design space exploration](https://arxiv.org/abs/2503.07297) -
-  End-to-end framework for microfluidic-cooled 3D ICs.
-- [Open-source thermal modeling tools (DAC BoF slides, PDF)](https://open-source-eda-birds-of-a-feather.github.io/doc/slides_2024/DAC24_BoF_Coskun.pdf) -
-  A guided tour of the open thermal tool landscape by one of its main authors.
+- [MFIT — multi-fidelity thermal modeling for 2.5D/3D chiplets (arXiv)](https://arxiv.org/abs/2410.09188) - Trading accuracy for speed in chiplet thermal exploration.
+- [Cool-3D — thermal-aware early design space exploration](https://arxiv.org/abs/2503.07297) - End-to-end framework for microfluidic-cooled 3D ICs.
+- [Open-source thermal modeling tools (DAC BoF slides, PDF)](https://open-source-eda-birds-of-a-feather.github.io/doc/slides_2024/DAC24_BoF_Coskun.pdf) - A guided tour of the open thermal tool landscape by one of its main authors.
 - [Vertical power delivery for HPC packages (arXiv)](https://arxiv.org/abs/2606.28837) - Design
   framework for delivering hundreds of amps vertically through a package.
-- [Warpage and thermomechanical stress](https://semiengineering.com/tag/warpage/) -
-  CTE mismatch across die, underfill, mold compound, and substrate; the reason large packages fail
+- [Warpage and thermomechanical stress](https://semiengineering.com/tag/warpage/) - CTE mismatch across die, underfill, mold compound, and substrate; the reason large packages fail
   assembly before they fail electrically.
-- [Direct-to-chip liquid cooling and immersion](https://www.opencompute.org/projects/cooling-environments) -
-  OCP's cooling workstream; where package-level thermal meets datacenter facilities.
+- [Direct-to-chip liquid cooling and immersion](https://www.opencompute.org/projects/cooling-environments) - OCP's cooling workstream; where package-level thermal meets datacenter facilities.
 
 ### Co-Packaged Optics
 
 - [TSMC COUPE](https://finance.biggo.com/news/d980R50ByH9TLH69RcD5) - Compact Universal Photonic
   Engine: an electronic IC stacked on a photonic IC using SoIC bumpless bonding, then integrated
   with CoWoS. Roadmapped from ~0.5 Tb/s/mm toward ~4 Tb/s/mm.
-- [Tom's Hardware — CPO foundry roadmaps compared](https://www.tomshardware.com/tech-industry/artificial-intelligence/co-packaged-optics-cpo-foundry-roadmaps-breaking-down-tsmc-intel-samsung-and-globalfoundries-approach-to-next-generation-scale-up-connectivity) -
-  TSMC, Intel, Samsung, and GlobalFoundries approaches side by side.
-- [EDN — where CPO stands in 2026](https://www.edn.com/where-co-packaged-optics-cpo-technology-stands-in-2026/) -
-  Realistic status check on deployment.
-- [SemiAnalysis — Co-Packaged Optics: scaling with light](https://newsletter.semianalysis.com/p/co-packaged-optics-cpo-book-scaling) -
-  Long-form economic and technical analysis of the CPO transition.
-- [IFTLE — TSMC integrated CoWoS and COUPE](https://www.3dincites.com/2025/10/iftle-642-tsmc-advanced-co-packaged-optics-integrated-cowos-and-coupe/) -
-  Packaging-community perspective with cross-sections.
-- [OIF — co-packaged optics frameworks](https://www.oiforum.com/technical-work/) -
-  Where the electrical-optical interface agreements are written.
+- [Tom's Hardware — CPO foundry roadmaps compared](https://www.tomshardware.com/tech-industry/artificial-intelligence/co-packaged-optics-cpo-foundry-roadmaps-breaking-down-tsmc-intel-samsung-and-globalfoundries-approach-to-next-generation-scale-up-connectivity) - TSMC, Intel, Samsung, and GlobalFoundries approaches side by side.
+- [EDN — where CPO stands in 2026](https://www.edn.com/where-co-packaged-optics-cpo-technology-stands-in-2026/) - Realistic status check on deployment.
+- [SemiAnalysis — Co-Packaged Optics: scaling with light](https://newsletter.semianalysis.com/p/co-packaged-optics-cpo-book-scaling) - Long-form economic and technical analysis of the CPO transition.
+- [IFTLE — TSMC integrated CoWoS and COUPE](https://www.3dincites.com/2025/10/iftle-642-tsmc-advanced-co-packaged-optics-integrated-cowos-and-coupe/) - Packaging-community perspective with cross-sections.
+- [OIF — co-packaged optics frameworks](https://www.oiforum.com/technical-work/) - Where the electrical-optical interface agreements are written.
 - [gdsfactory](https://github.com/gdsfactory/gdsfactory) - Open-source Python framework for
   photonic and analog layout; the practical entry point for building a PIC layout you can actually
   tape out.
-- [gplugins — DEVSIM, Meep, and TCAD plugins for gdsfactory](https://gdsfactory.github.io/gplugins/) -
-  Ties photonic layout to device and EM simulation.
+- [gplugins — DEVSIM, Meep, and TCAD plugins for gdsfactory](https://gdsfactory.github.io/gplugins/) - Ties photonic layout to device and EM simulation.
 
 ### Packaging Supply Chain and OSATs
 
-- [TSMC advanced packaging capacity tracking](https://www.digitimes.com/news/a20260514PD237/tsmc-cowos-soic-capacity-packaging.html) -
-  CoWoS and SoIC capacity expansion reporting; capacity numbers here move markets and change
+- [TSMC advanced packaging capacity tracking](https://www.digitimes.com/news/a20260514PD237/tsmc-cowos-soic-capacity-packaging.html) - CoWoS and SoIC capacity expansion reporting; capacity numbers here move markets and change
   quarterly, so treat any single figure as a snapshot.
 - [ASE Group](https://www.aseglobal.com/) - Largest OSAT; FOCoS, VIPack, and fan-out capacity.
 - [Amkor Technology](https://amkor.com/) - Second-largest OSAT, with US advanced packaging
@@ -954,8 +816,7 @@ these standards are about.
   interoperable chiplet using open and industry-standard interfaces.
 - [tenstorrent/aou-rtl](https://github.com/tenstorrent/aou-rtl) - AXI-over-UCIe bridge RTL,
   targeting the UCIe 3.0 Flit-Die Interface. A rare open, production-oriented D2D bridge.
-- [Zero ASIC — lowering the barrier to chiplets](https://www.zeroasic.com/blog/ucie-open-source-design) -
-  Write-up of an open UCIe-lite D2D generator, simulated with Verilator, Icarus, Xyce, and
+- [Zero ASIC — lowering the barrier to chiplets](https://www.zeroasic.com/blog/ucie-open-source-design) - Write-up of an open UCIe-lite D2D generator, simulated with Verilator, Icarus, Xyce, and
   Switchboard.
 - [Switchboard](https://github.com/zeroasiccorp/switchboard) - High-performance open co-simulation
   library for stitching RTL, C++, and Python models across chiplet boundaries.
@@ -980,8 +841,7 @@ these standards are about.
 - [Chiplet Actuary](https://github.com/Yinxiao-Feng/chiplet-actuary) - Quantitative cost model for
   multi-chiplet systems, the first to model die-to-die overhead and NRE cost explicitly. Paper:
   [arXiv:2203.12268](https://arxiv.org/abs/2203.12268).
-- [Gemini — mapping and architecture co-exploration](https://github.com/SET-Scheduling-Project/GEMINI-HPCA2024) -
-  HPCA 2024 framework co-exploring architecture and mapping for large DNN chiplet accelerators
+- [Gemini — mapping and architecture co-exploration](https://github.com/SET-Scheduling-Project/GEMINI-HPCA2024) - HPCA 2024 framework co-exploring architecture and mapping for large DNN chiplet accelerators
   under monetary-cost, performance, and energy objectives. Uses Chiplet Actuary for package cost.
 - [Gemini paper (PDF)](http://people.iiis.tsinghua.edu.cn/~gaomy/pubs/gemini.hpca24.pdf) - Full
   method description.
@@ -992,16 +852,12 @@ these standards are about.
 - [ChipletPart](https://github.com/ABKGroup/ChipletPart) - Cost-aware partitioner for 2.5D systems:
   multi-way partitioning, heterogeneous technology assignment, and IO-reach-aware floorplanning in
   one loop. Paper: [arXiv:2507.19819](https://arxiv.org/abs/2507.19819).
-- [OCP chiplet cost model](https://www.opencompute.org/chiplets/66/cost-modeling-analysis-for-heterogeneous-integration-of-chiplets) -
-  Industry-consensus cost model covering materials, test, known-good-die, and operations, published
+- [OCP chiplet cost model](https://www.opencompute.org/chiplets/66/cost-modeling-analysis-for-heterogeneous-integration-of-chiplets) - Industry-consensus cost model covering materials, test, known-good-die, and operations, published
   for supply-chain and engineering trade-offs.
-- [Yield and cost arithmetic for disaggregation](https://semiengineering.com/tag/chiplets/) -
-  When splitting a die actually saves money once packaging, test, and KGD costs are included.
-- [Die-per-wafer and yield calculators](https://anysilicon.com/die-per-wafer-formula-free-calculators/) -
-  The arithmetic behind every chiplet business case: gross die, edge loss, and defect-density yield
+- [Yield and cost arithmetic for disaggregation](https://semiengineering.com/tag/chiplets/) - When splitting a die actually saves money once packaging, test, and KGD costs are included.
+- [Die-per-wafer and yield calculators](https://anysilicon.com/die-per-wafer-formula-free-calculators/) - The arithmetic behind every chiplet business case: gross die, edge loss, and defect-density yield
   models (Poisson, Murphy, negative binomial).
-- [Design approach for energy-efficient D2D interfaces (ISLPED)](https://dl.acm.org/doi/abs/10.1145/3665314.3680473) -
-  pJ/bit budgets across interface choices.
+- [Design approach for energy-efficient D2D interfaces (ISLPED)](https://dl.acm.org/doi/abs/10.1145/3665314.3680473) - pJ/bit budgets across interface choices.
 
 ### Architecture Exploration Tools
 
@@ -1021,8 +877,7 @@ these standards are about.
   accelerator architectures; pairs naturally with chiplet partitioning studies.
 - [SIAM and chiplet accelerator simulators](https://arxiv.org/list/cs.AR/recent) - Chiplet-based
   in-memory-computing accelerator simulation; search arXiv cs.AR for the current generation.
-- [AuthenTree — distributed trust for chiplet SiPs (arXiv)](https://arxiv.org/abs/2508.13033) -
-  Architecture work on authenticating chiplets from multiple vendors.
+- [AuthenTree — distributed trust for chiplet SiPs (arXiv)](https://arxiv.org/abs/2508.13033) - Architecture work on authenticating chiplets from multiple vendors.
 
 ---
 
@@ -1032,22 +887,16 @@ these standards are about.
 
 No open-source flow currently signs off a 3D stack. These are the tools that do.
 
-- [Synopsys 3DIC Compiler](https://www.synopsys.com/implementation-and-signoff/3dic-design.html) -
-  Unified multi-die planning, implementation, and analysis in one database.
-- [Cadence Integrity 3D-IC](https://www.cadence.com/en_US/home/tools/ic-package-design-and-analysis.html) -
-  3D-IC planning platform with integrated thermal and early feasibility analysis.
+- [Synopsys 3DIC Compiler](https://www.synopsys.com/implementation-and-signoff/3dic-design.html) - Unified multi-die planning, implementation, and analysis in one database.
+- [Cadence Integrity 3D-IC](https://www.cadence.com/en_US/home/tools/ic-package-design-and-analysis.html) - 3D-IC planning platform with integrated thermal and early feasibility analysis.
 - [Siemens Innovator3D IC](https://eda.sw.siemens.com/en-US/ic/) - Multi-die
   planning, substrate/interposer co-design, and package-aware signoff.
-- [Siemens Calibre 3DSTACK](https://eda.sw.siemens.com/en-US/ic/calibre-design/physical-verification/3dstack/) -
-  Physical verification across die boundaries, including bonded-interface checks.
+- [Siemens Calibre 3DSTACK](https://eda.sw.siemens.com/en-US/ic/calibre-design/physical-verification/3dstack/) - Physical verification across die boundaries, including bonded-interface checks.
 - [Ansys RedHawk-SC and Icepak](https://www.ansys.com/products/semiconductors) - Multiphysics:
   power integrity, electromigration, thermal, and warpage for stacked assemblies.
-- [Keysight ADS / EMPro](https://www.keysight.com/us/en/products/software/pathwave-design-software.html) -
-  Package and interposer electromagnetic modeling.
-- [Siemens Tessent Multi-die](https://blogs.sw.siemens.com/semiconductor-packaging/2024/09/24/enabling-comprehensive-dft-for-chiplets-and-3dics-using-tessent-multi-die/) -
-  IEEE 1838-based DFT across a stack, including pre-bond, mid-bond, and post-bond test.
-- [Semiwiki — DFT moves up to 2.5D and 3D IC](https://semiwiki.com/eda/319014-dft-moves-up-to-2-5d-and-3d-ic/) -
-  What changes in the DFT flow when the design spans dies.
+- [Keysight ADS / EMPro](https://www.keysight.com/us/en/products/software/pathwave-design-software.html) - Package and interposer electromagnetic modeling.
+- [Siemens Tessent Multi-die](https://blogs.sw.siemens.com/semiconductor-packaging/2024/09/24/enabling-comprehensive-dft-for-chiplets-and-3dics-using-tessent-multi-die/) - IEEE 1838-based DFT across a stack, including pre-bond, mid-bond, and post-bond test.
+- [Semiwiki — DFT moves up to 2.5D and 3D IC](https://semiwiki.com/eda/319014-dft-moves-up-to-2-5d-and-3d-ic/) - What changes in the DFT flow when the design spans dies.
 
 ### Open-Source RTL-to-GDS
 
@@ -1149,8 +998,7 @@ No open-source flow currently signs off a 3D stack. These are the tools that do.
 - [IIC-OSIC-TOOLS](https://github.com/iic-jku/IIC-OSIC-TOOLS) - All-in-one Docker image with the open
   analog and digital flows preinstalled and SKY130, GF180, IHP SG13G2 and SG13C5 PDKs bundled. The
   single fastest way to get a working environment, and the one most tutorials assume.
-- [ihp-sg13g2 AMS chip template](https://github.com/iic-jku/ihp-sg13g2-ams-chip-template) -
-  End-to-end analog/mixed-signal tutorial and project skeleton for the IHP open PDK, from schematic
+- [ihp-sg13g2 AMS chip template](https://github.com/iic-jku/ihp-sg13g2-ams-chip-template) - End-to-end analog/mixed-signal tutorial and project skeleton for the IHP open PDK, from schematic
   to submitted GDS.
 - [IHP Open PDK documentation](https://github.com/IHP-GmbH/IHP-Open-PDK-docs) and
   [FMD-QNC tapeouts](https://github.com/IHP-GmbH/IHP-Open-FMD_QNC-Tapeouts) — Reference designs
@@ -1181,8 +1029,7 @@ No open-source flow currently signs off a 3D stack. These are the tools that do.
   you need thermal inside an optimization loop rather than as a signoff check.
 - [OpenROAD 3D and multi-die research branches](https://github.com/The-OpenROAD-Project) - Watch the
   org rather than any single repository; 3D support arrives as separate projects.
-- [Open Source EDA Birds of a Feather](https://open-source-eda-birds-of-a-feather.github.io/) -
-  Annual DAC session; the slide archive is the best single map of what open EDA can and cannot do
+- [Open Source EDA Birds of a Feather](https://open-source-eda-birds-of-a-feather.github.io/) - Annual DAC session; the slide archive is the best single map of what open EDA can and cannot do
   each year.
 
 #### Placement, partitioning and routing research
@@ -1258,7 +1105,7 @@ published 3D results are reported against them.
   unusually friendly API; the basis of several hobby and research mask flows.
 - [gdshelpers](https://github.com/HelgeGehring/gdshelpers) - Pattern generation for nanostructuring
   and integrated optics.
-- [kfactory](https://github.com/gdsfactory/kfactory) - gdsfactory-style layout-as-code on a KLayout
+- [kfactory](https://github.com/gdsfactory/kfactory) - Layout-as-code in the gdsfactory style, on a KLayout
   backend, for large hierarchical layouts.
 
 ---
@@ -1277,8 +1124,7 @@ published 3D results are reported against them.
   reliability, and nano-device simulation.
 - [Synopsys QuantumATK](https://www.synopsys.com/manufacturing/quantumatk.html) - Atomistic
   simulation for materials, interfaces, and 2D-material devices.
-- [Applied Materials Ginestra](https://www.appliedmaterials.com/us/en/semiconductor/solutions/ginestra.html) -
-  Multiscale materials-to-device simulation, strong on reliability and emerging memory.
+- [Applied Materials Ginestra](https://www.appliedmaterials.com/us/en/semiconductor/solutions/ginestra.html) - Multiscale materials-to-device simulation, strong on reliability and emerging memory.
 - [Lam SEMulator3D](https://www.lamresearch.com/products/semulator3d/) - Virtual fabrication:
   predictive 3D process modeling used to debug integration schemes before running wafers. The most
   directly "fab" of the commercial simulators.
@@ -1314,8 +1160,7 @@ published 3D results are reported against them.
   structure underpinning the level-set memory efficiency.
 - [ViennaTools organization](https://github.com/ViennaTools) - The full process-simulation stack in
   one place.
-- [ViennaPS paper (SoftwareX)](https://www.sciencedirect.com/science/article/pii/S2352711025004194) -
-  Describes the architecture and validation cases.
+- [ViennaPS paper (SoftwareX)](https://www.sciencedirect.com/science/article/pii/S2352711025004194) - Describes the architecture and validation cases.
 - [pytaurus](https://github.com/thomashirtz/pytaurus) - Python wrapper around Synopsys Sentaurus,
   for scripting commercial TCAD sweeps from a normal toolchain. Requires a Sentaurus license.
 - [NanoTCAD ViDES](http://vides.nanotcad.com/vides/) - Open NEGF-based simulator for nanoscale and
@@ -1324,8 +1169,7 @@ published 3D results are reported against them.
   nanowire and 2D-channel studies.
 - [NEMO5](https://engineering.purdue.edu/gekcogrp/software-projects/nemo5/) - Purdue's multiscale
   nanoelectronics modeling tool.
-- [gplugins DEVSIM notebook](https://gdsfactory.github.io/gplugins/) -
-  Worked example of driving DEVSIM from a layout-first workflow.
+- [gplugins DEVSIM notebook](https://gdsfactory.github.io/gplugins/) - Worked example of driving DEVSIM from a layout-first workflow.
 
 ### Atomistic and First-Principles
 
@@ -1343,8 +1187,7 @@ published 3D results are reported against them.
   ~150k+ inorganic materials with band gaps, elastic constants, and phase diagrams.
 - [NOMAD](https://nomad-lab.eu/) and [AFLOW](http://aflowlib.org/) - Alternative materials data
   repositories, useful for cross-checking.
-- [Exploring transport in APAM-enabled pn junctions (arXiv)](https://arxiv.org/abs/2410.17408) -
-  Example of atom-precision device modeling connecting DFT to TCAD.
+- [Exploring transport in APAM-enabled pn junctions (arXiv)](https://arxiv.org/abs/2410.17408) - Example of atom-precision device modeling connecting DFT to TCAD.
 
 ### Electromagnetics and Photonics
 
@@ -1400,11 +1243,9 @@ published 3D results are reported against them.
   acceleration and ICCAD13 benchmark models.
 - [LithoBench](https://github.com/shelljane/lithobench) - Benchmark suite for AI computational
   lithography with 100k+ clips.
-- [Generic lithography modeling with optics-inspired neural networks (arXiv)](https://arxiv.org/abs/2203.08616) -
-  Physics-informed architecture that generalizes across process conditions.
+- [Generic lithography modeling with optics-inspired neural networks (arXiv)](https://arxiv.org/abs/2203.08616) - Physics-informed architecture that generalizes across process conditions.
 - [ILILT (arXiv)](https://arxiv.org/abs/2405.03574) - Implicit learning of ILT.
-- [Differentiable lithography imaging framework (arXiv)](https://arxiv.org/abs/2409.15306) -
-  Makes the imaging model itself trainable.
+- [Differentiable lithography imaging framework (arXiv)](https://arxiv.org/abs/2409.15306) - Makes the imaging model itself trainable.
 - [NVIDIA cuLitho](https://developer.nvidia.com/culitho) - Production GPU acceleration for
   computational lithography.
 - [Hotspot detection benchmarks — ICCAD 2012/2016](https://iccad-contest.org/) - The canonical
@@ -1414,37 +1255,30 @@ published 3D results are reported against them.
 
 - [Virtual metrology](https://semiengineering.com/tag/virtual-metrology/) - Predicting
   wafer measurements from equipment sensor traces; the highest-ROI fab ML application.
-- [Automated defect classification with ML](https://semiengineering.com/tag/defect-classification/) -
-  Modern deep-learning ADC versus the rule-based systems it replaces.
+- [Automated defect classification with ML](https://semiengineering.com/tag/defect-classification/) - Modern deep-learning ADC versus the rule-based systems it replaces.
 - [WM-811K wafer map dataset](https://www.kaggle.com/datasets/qingyi/wm811k-wafer-map) - 811,457
   wafer maps from a real 300 mm line across 46,293 lots, with eight labeled defect patterns. The
   canonical public dataset in this area.
 - [WM-811K benchmark implementations](https://github.com/xalzh/WM-811k) - Integrated framework
   comparing CNN, DenseNet, MobileNet, and ResNet variants on the dataset.
-- [Wafer defect classification reference repo](https://github.com/iamxichen/Semiconductor-Wafer-Defect-Classification) -
-  Clean baseline implementation.
+- [Wafer defect classification reference repo](https://github.com/iamxichen/Semiconductor-Wafer-Defect-Classification) - Clean baseline implementation.
 - [Defect_KAN](https://github.com/judahobi/Defect_KAN) - EfficientNet + spatial pyramid pooling +
   Kolmogorov-Arnold network on WM-811K, with Grad-CAM interpretability.
-- [Wafer map defect classification with tiny vision transformers (arXiv)](https://arxiv.org/abs/2504.02494) -
-  Recent architecture comparison on the same benchmark.
+- [Wafer map defect classification with tiny vision transformers (arXiv)](https://arxiv.org/abs/2504.02494) - Recent architecture comparison on the same benchmark.
 - [Autoencoder augmentation for wafer maps (arXiv)](https://arxiv.org/abs/2411.11029) - Addresses
   the severe class imbalance that dominates this dataset.
-- [Domain adaptation with minimal manufacturing data (arXiv)](https://arxiv.org/abs/2306.00202) -
-  The realistic fab problem: very few labeled examples of the defect you care about.
-- [DAGM 2007 defect dataset](https://hci.iwr.uni-heidelberg.de/content/weakly-supervised-learning-industrial-optical-inspection) -
-  Classic optical surface inspection benchmark, still used for pretraining.
+- [Domain adaptation with minimal manufacturing data (arXiv)](https://arxiv.org/abs/2306.00202) - The realistic fab problem: very few labeled examples of the defect you care about.
+- [DAGM 2007 defect dataset](https://hci.iwr.uni-heidelberg.de/content/weakly-supervised-learning-industrial-optical-inspection) - Classic optical surface inspection benchmark, still used for pretraining.
 - [WaPIRL](https://github.com/hgkahng/WaPIRL) - Self-supervised pretraining for wafer bin map defect
   classification. The right approach when unlabeled maps are abundant and labels are not, which is
   every real fab.
 - [WaferDC](https://github.com/SpatialAILab/WaferDC) - Long-tailed detection and classification of
   wafer defects from SEM images, robust to varying image backgrounds (EAAI 2025).
-- [MixedWM38 vision transformer baseline](https://github.com/PanithanS/Wafers-Defect-Recognition-using-Visual-Transformer) -
-  Worked example on the mixed-type defect dataset, where a single wafer carries superimposed
+- [MixedWM38 vision transformer baseline](https://github.com/PanithanS/Wafers-Defect-Recognition-using-Visual-Transformer) - Worked example on the mixed-type defect dataset, where a single wafer carries superimposed
   patterns — the realistic case that WM-811K's eight clean classes understate.
 - [WaferMap](https://github.com/Junliangwangdhu/WaferMap) - Additional wafer map defect dataset and
   models.
-- [Semiconductor-Fault-Detection](https://github.com/markditsworth/Semiconductor-Fault-Detection) -
-  Classifier built on real foundry process data rather than images; a useful counterpoint to the
+- [Semiconductor-Fault-Detection](https://github.com/markditsworth/Semiconductor-Fault-Detection) - Classifier built on real foundry process data rather than images; a useful counterpoint to the
   vision-heavy literature.
 - [`wafermap` topic on GitHub](https://github.com/topics/wafermap) - Live index of wafer-map
   tooling and models.
@@ -1479,8 +1313,7 @@ published 3D results are reported against them.
   hardware design and verification work.
 - [LLM4IC](https://github.com/DfX-NYUAD/LLM4IC) - NYU's work on LLMs in chip design with a security
   and trust focus.
-- [Agentic hardware verification token allocation (arXiv)](https://arxiv.org/abs/2604.15657) -
-  Empirical study of where inference compute actually helps in verification agents.
+- [Agentic hardware verification token allocation (arXiv)](https://arxiv.org/abs/2604.15657) - Empirical study of where inference compute actually helps in verification agents.
 - [SemiKong](https://github.com/aitomatic/semikong) - Open domain-specific model trained on
   semiconductor process and equipment knowledge rather than RTL. Aimed at etch and deposition
   process engineering questions, which is a different problem from code generation.
@@ -1488,8 +1321,7 @@ published 3D results are reported against them.
   LLMs using reward-driven reinforcement learning.
 - [ORFS-Agent](https://github.com/ABKGroup/ORFS-Agent) - Agent that tunes OpenROAD flow parameters,
   one of the more concrete demonstrations of agents doing real PPA optimization.
-- [Generative AI for semiconductor design](https://github.com/aws-samples/generative-ai-for-semiconductor-design) -
-  Reference engineering-assistant architecture over semiconductor documentation.
+- [Generative AI for semiconductor design](https://github.com/aws-samples/generative-ai-for-semiconductor-design) - Reference engineering-assistant architecture over semiconductor documentation.
 
 ### Datasets and Benchmarks
 
@@ -1525,25 +1357,21 @@ scheduling problem is genuinely one of the hardest in industrial engineering.
   for fab simulation and scheduling research; papers are open in the INFORMS/IEEE archives.
 - [Re-entrant flow shop scheduling literature](https://arxiv.org/list/math.OC/recent) - The
   theoretical framing of the problem.
-- [OEE and equipment productivity (SEMI E10/E79)](https://www.semi.org/en/products-services/standards) -
-  Standard state model and productivity definitions.
+- [OEE and equipment productivity (SEMI E10/E79)](https://www.semi.org/en/products-services/standards) - Standard state model and productivity definitions.
 
 ### Scheduling, Dispatching and Simulators
 
-- [SMT2020 — a semiconductor manufacturing testbed](https://p2schedgen.fernuni-hagen.de/) -
-  The modern successor to the MIMAC datasets: full 300 mm fab models with 500+ operations and
+- [SMT2020 — a semiconductor manufacturing testbed](https://p2schedgen.fernuni-hagen.de/) - The modern successor to the MIMAC datasets: full 300 mm fab models with 500+ operations and
   1,000+ machines, in high-volume/low-mix and low-volume/high-mix variants.
 - [PySCFabSim](https://github.com/prosysscience/PySCFabSim-release) - Customizable open-source
   Python simulator for semiconductor fab scheduling research, compatible with SMT2020.
-- [PySCFabSim overview (PDF)](https://prosysscience.github.io/PySCFabSim-release/assets/img/portfolio/asmc_presentation.pdf) -
-  Design rationale and performance.
+- [PySCFabSim overview (PDF)](https://prosysscience.github.io/PySCFabSim-release/assets/img/portfolio/asmc_presentation.pdf) - Design rationale and performance.
 - [MiniFab model](https://p2schedgen.fernuni-hagen.de/) - The small Intel/ASU testbed: 6 steps,
   5 machines, batching. The standard sanity-check problem before scaling to SMT2020.
 - [Scalability of RL for fab dispatching (arXiv)](https://arxiv.org/abs/2505.11135) - Compares
   open-source fab models against real industry datasets; a useful reality check on published RL
   results.
-- [Semiconductor fab scheduling with self-supervised and RL (arXiv)](https://arxiv.org/abs/2302.07162) -
-  Representative modern approach.
+- [Semiconductor fab scheduling with self-supervised and RL (arXiv)](https://arxiv.org/abs/2302.07162) - Representative modern approach.
 - [SimPy](https://gitlab.com/team-simpy/simpy) - Discrete-event simulation in Python; the usual
   substrate for custom fab models.
 - [JobShopLib](https://github.com/Pabloo22/job_shop_lib) - Job-shop scheduling library with RL
@@ -1567,26 +1395,21 @@ scheduling problem is genuinely one of the hardest in industrial engineering.
   tools for APC and virtual metrology.
 - [OPC UA for machine-to-machine](https://opcfoundation.org/) - Increasingly the integration layer
   above SECS/GEM in newer facilities and in back-end assembly.
-- [MST — open-source SECS/GEM driver commentary](https://mst-sg.com/how-msts-open-source-secs-gem-driver-is-changing-equipment-integration/) -
-  Industry perspective on why open equipment integration matters.
-- [Ignition SECS/GEM module docs](https://www.docs.inductiveautomation.com/docs/8.1/ignition-modules/secs-gem) -
-  Well-written vendor documentation that doubles as a protocol tutorial.
+- [MST — open-source SECS/GEM driver commentary](https://mst-sg.com/how-msts-open-source-secs-gem-driver-is-changing-equipment-integration/) - Industry perspective on why open equipment integration matters.
+- [Ignition SECS/GEM module docs](https://www.docs.inductiveautomation.com/docs/8.1/ignition-modules/secs-gem) - Well-written vendor documentation that doubles as a protocol tutorial.
 
 ### Cleanroom, Facilities and Sustainability
 
 - [Cleanroom classification (ISO 14644)](https://www.iso.org/standard/53394.html) - Particle count
   classes; ISO 3–5 for lithography areas.
-- [Airborne molecular contamination](https://semiengineering.com/tag/contamination/) -
-  AMC control is a bigger practical constraint than particle count at advanced nodes.
+- [Airborne molecular contamination](https://semiengineering.com/tag/contamination/) - AMC control is a bigger practical constraint than particle count at advanced nodes.
 - [Fab water and energy use](https://www.semi.org/en/industry-groups/semiconductor-climate-consortium) - SEMI's sustainability
   programme, including the Semiconductor Climate Consortium.
-- [Fluorinated gas emissions and abatement](https://www.epa.gov/climate-hfcs-reduction) -
-  EPA partnership data on process gas emissions; the reason cryo etch's lower GWP is a selling
+- [Fluorinated gas emissions and abatement](https://www.epa.gov/climate-hfcs-reduction) - EPA partnership data on process gas emissions; the reason cryo etch's lower GWP is a selling
   point.
 - [Ultrapure water systems](https://www.semi.org/en/products-services/standards) - SEMI F63 and
   related standards.
-- [Construction Physics — how fabs get built](https://www.construction-physics.com/p/semiconductor-fab-reading-list) -
-  Vibration isolation, cleanroom construction sequencing, and why a fab shell costs what it does.
+- [Construction Physics — how fabs get built](https://www.construction-physics.com/p/semiconductor-fab-reading-list) - Vibration isolation, cleanroom construction sequencing, and why a fab shell costs what it does.
 
 ---
 
@@ -1598,21 +1421,16 @@ Testing a chiplet stack is harder than testing a die: a bad die found after bond
 good die bonded to it, so known-good-die confidence has to come from pre-bond test that cannot
 touch final-pitch bonding pads.
 
-- [IEEE 1838-2019 — test access for 3D stacked ICs](https://standards.ieee.org/ieee/1838/6013/) -
-  The primary TAP / secondary TAP / 3D configuration register architecture enabling pre-bond,
+- [IEEE 1838-2019 — test access for 3D stacked ICs](https://standards.ieee.org/ieee/1838/6013/) - The primary TAP / secondary TAP / 3D configuration register architecture enabling pre-bond,
   mid-bond, and post-bond test.
-- [An inside look at IEEE 1838](https://www.3dincites.com/2020/03/an-inside-look-at-3d-dft-standard-ieee-std-1838-2019/) -
-  Readable walkthrough of the standard by people who wrote it.
-- [IEEE 1838 explained for 2.5D/3D/3.5D](https://www.lovechip.com/blog/ieee-1838-explained-how-dft-evolves-for-2-5d-3d-and-3-5d-ics) -
-  Practical framing with the other standards it composes with.
+- [An inside look at IEEE 1838](https://www.3dincites.com/2020/03/an-inside-look-at-3d-dft-standard-ieee-std-1838-2019/) - Readable walkthrough of the standard by people who wrote it.
+- [IEEE 1838 explained for 2.5D/3D/3.5D](https://www.lovechip.com/blog/ieee-1838-explained-how-dft-evolves-for-2-5d-3d-and-3-5d-ics) - Practical framing with the other standards it composes with.
 - [IEEE 1687 (IJTAG)](https://standards.ieee.org/ieee/1687/4460/) - Access and control of embedded
   instruments; the substrate for in-field monitoring in multi-die parts.
 - [IEEE 1149.1 (JTAG)](https://standards.ieee.org/ieee/1149.1/4484/) - Boundary scan; still the
   foundation everything else hangs off.
-- [Challenges in testing chiplets](https://www.eeworldonline.com/what-are-the-challenges-when-testing-chiplets/) -
-  KGD, final test, and system-level test in a heterogeneous stack.
-- [Testing the stack — DFT for 3D devices](https://semiengineering.com/can-you-afford-dft-for-3d-stacked-die/) -
-  The cost argument, which is usually the deciding one.
+- [Challenges in testing chiplets](https://www.eeworldonline.com/what-are-the-challenges-when-testing-chiplets/) - KGD, final test, and system-level test in a heterogeneous stack.
+- [Testing the stack — DFT for 3D devices](https://semiengineering.com/can-you-afford-dft-for-3d-stacked-die/) - The cost argument, which is usually the deciding one.
 - [International Test Conference (ITC)](https://www.itctestweek.org/) - The primary test venue.
 - [Advantest and Teradyne ATE platforms](https://www.advantest.com/) - Where the economics of test
   time per device actually get set.
@@ -1634,18 +1452,14 @@ analytics work starts by parsing it.
 
 ### Reliability Physics
 
-- [JEDEC JEP122 — failure mechanisms and models](https://www.jedec.org/standards-documents) -
-  The reference document for BTI, HCI, TDDB, electromigration, and stress migration models.
+- [JEDEC JEP122 — failure mechanisms and models](https://www.jedec.org/standards-documents) - The reference document for BTI, HCI, TDDB, electromigration, and stress migration models.
 - [IEEE International Reliability Physics Symposium (IRPS)](https://irps.org/) - The venue; the
   tutorial notes are excellent and often circulated freely.
-- [Electromigration in advanced interconnects](https://semiengineering.com/knowledge_centers/manufacturing/reliability/electromigration/) -
-  Why Ru and Mo change the EM picture as much as the resistance picture.
-- [Bias temperature instability and aging](https://semiengineering.com/tag/transistor-aging/) -
-  Aging-aware timing signoff, now standard at advanced nodes.
+- [Electromigration in advanced interconnects](https://semiengineering.com/knowledge_centers/manufacturing/reliability/electromigration/) - Why Ru and Mo change the EM picture as much as the resistance picture.
+- [Bias temperature instability and aging](https://semiengineering.com/tag/transistor-aging/) - Aging-aware timing signoff, now standard at advanced nodes.
 - [Thermomechanical reliability of 3D stacks](https://www.ectc.net/) - ECTC's reliability sessions;
   TSV Cu pumping, underfill delamination, and bump/hybrid-bond fatigue.
-- [Moisture, popcorning, and MSL classification (JEDEC J-STD-020)](https://www.jedec.org/standards-documents) -
-  Assembly-side reliability that becomes harder as packages get larger and thinner.
+- [Moisture, popcorning, and MSL classification (JEDEC J-STD-020)](https://www.jedec.org/standards-documents) - Assembly-side reliability that becomes harder as packages get larger and thinner.
 - [Automotive-grade qualification (AEC-Q100)](http://www.aecouncil.com/) - The stricter regime, now
   pulling advanced packaging into its scope.
 
@@ -1655,18 +1469,12 @@ analytics work starts by parsing it.
   logic locking, and IP protection. The standard evaluation set in the field.
 - [CAD for Assurance](https://cadforassurance.org/) - Tool and dataset index for hardware assurance,
   including power/EM side-channel datasets for Trojan benchmarks.
-- [AuthenTree — distributed trust for chiplet systems (arXiv)](https://arxiv.org/abs/2508.13033) -
-  MPC-based authentication architecture for heterogeneous chiplet packages.
-- [Enhancing DFT security in chiplet-based systems (PDF)](https://hal.science/hal-05185796v1/file/JETCAS_2025_final_upload.pdf) -
-  The tension between test access and attack surface, which chiplets make worse.
-- [Benchmarking at the frontier of hardware security — logic locking (arXiv)](https://arxiv.org/abs/2006.06806) -
-  Sober assessment of what the benchmarks in this field do and do not prove.
-- [Trojan Playground — RL for Trojan insertion and detection (arXiv)](https://arxiv.org/abs/2305.09592) -
-  Adversarial framing of the detection problem.
-- [Gate-level information flow tracking (PDF)](https://cseweb.ucsd.edu/~weh140/resource/IEEEComputer_16.pdf) -
-  Formal approach to detecting information-flow violations from hardware Trojans.
-- [Securing the silicon supply chain](https://techworks.org.uk/s2s26-siemens-blog-securing-the-silicon-supply-chain-why-hardware-trust-matters/) -
-  Industry framing of counterfeit, overproduction, and cloning risk.
+- [AuthenTree — distributed trust for chiplet systems (arXiv)](https://arxiv.org/abs/2508.13033) - MPC-based authentication architecture for heterogeneous chiplet packages.
+- [Enhancing DFT security in chiplet-based systems (PDF)](https://hal.science/hal-05185796v1/file/JETCAS_2025_final_upload.pdf) - The tension between test access and attack surface, which chiplets make worse.
+- [Benchmarking at the frontier of hardware security — logic locking (arXiv)](https://arxiv.org/abs/2006.06806) - Sober assessment of what the benchmarks in this field do and do not prove.
+- [Trojan Playground — RL for Trojan insertion and detection (arXiv)](https://arxiv.org/abs/2305.09592) - Adversarial framing of the detection problem.
+- [Gate-level information flow tracking (PDF)](https://cseweb.ucsd.edu/~weh140/resource/IEEEComputer_16.pdf) - Formal approach to detecting information-flow violations from hardware Trojans.
+- [Securing the silicon supply chain](https://techworks.org.uk/s2s26-siemens-blog-securing-the-silicon-supply-chain-why-hardware-trust-matters/) - Industry framing of counterfeit, overproduction, and cloning risk.
 - [CHES — Cryptographic Hardware and Embedded Systems](https://ches.iacr.org/) - The venue for
   side-channel and fault-injection work.
 - [HOST — Hardware Oriented Security and Trust](http://www.hostsymposium.org/) - The complementary
@@ -1698,10 +1506,8 @@ analytics work starts by parsing it.
 - [US BIS — export administration regulations and entity list](https://www.bis.gov/) - The primary
   source. Rules define advanced-node thresholds explicitly (logic at or below 16/14 nm, DRAM at or
   below 18 nm half-pitch, and NAND layer counts).
-- [Congressional Research Service — US export controls and China: advanced semiconductors](https://www.congress.gov/crs-product/R48642) -
-  The best neutral summary of a fast-moving control regime.
-- [CSIS — semiconductor and AI export control analysis](https://www.csis.org/analysis/understanding-us-allies-current-legal-authority-implement-ai-and-semiconductor-export) -
-  Focused on allied alignment, which is where the regime's effectiveness is actually determined.
+- [Congressional Research Service — US export controls and China: advanced semiconductors](https://www.congress.gov/crs-product/R48642) - The best neutral summary of a fast-moving control regime.
+- [CSIS — semiconductor and AI export control analysis](https://www.csis.org/analysis/understanding-us-allies-current-legal-authority-implement-ai-and-semiconductor-export) - Focused on allied alignment, which is where the regime's effectiveness is actually determined.
 - [European Chips Act](https://www.european-chips-act.com/) - Implementation tracking, plus the
   Chips Act 2.0 proposal adopted in June 2026.
 - [SEMI Europe policy briefs](https://www.semi.org/eu) - Monthly EU policy summaries
@@ -1709,20 +1515,15 @@ analytics work starts by parsing it.
 - [CHIPS and Science Act — NIST program](https://www.nist.gov/chips) - US funding programme,
   including the National Semiconductor Technology Center and the National Advanced Packaging
   Manufacturing Program.
-- [NAPMP — National Advanced Packaging Manufacturing Program](https://www.nist.gov/news-events/news/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next) -
-  Directly relevant if advanced packaging is your area: this is where US public funding is going.
-- [Japan, Korea, India, and China programme trackers](https://www.csis.org/programs/scholl-chair-international-business) -
-  CSIS and the OECD both maintain comparative subsidy analysis.
+- [NAPMP — National Advanced Packaging Manufacturing Program](https://www.nist.gov/news-events/news/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next) - Directly relevant if advanced packaging is your area: this is where US public funding is going.
+- [Japan, Korea, India, and China programme trackers](https://www.csis.org/programs/scholl-chair-international-business) - CSIS and the OECD both maintain comparative subsidy analysis.
 
 ### Cost and Capacity Fundamentals
 
-- [Wafer cost and cost-per-transistor curves](https://semiengineering.com/tag/cost/) -
-  The claim that cost per transistor stopped falling is more nuanced than usually stated; this is
+- [Wafer cost and cost-per-transistor curves](https://semiengineering.com/tag/cost/) - The claim that cost per transistor stopped falling is more nuanced than usually stated; this is
   where to check it.
-- [Fab capex per 1,000 wafer starts](https://www.semi.org/en/products-services/market-data) -
-  Roughly $2–3B per 10k wpm at leading edge, before packaging.
-- [Mask set costs at advanced nodes](https://semiengineering.com/tag/photomask/) -
-  The NRE that makes chiplet reuse economically compelling.
+- [Fab capex per 1,000 wafer starts](https://www.semi.org/en/products-services/market-data) - Roughly $2–3B per 10k wpm at leading edge, before packaging.
+- [Mask set costs at advanced nodes](https://semiengineering.com/tag/photomask/) - The NRE that makes chiplet reuse economically compelling.
 - [Chiplet economics](https://semiengineering.com/tag/chiplets/) - Where disaggregation pays
   and where it does not.
 
@@ -1777,8 +1578,7 @@ analytics work starts by parsing it.
 - *The Chip* — T.R. Reid. The invention of the integrated circuit.
 - *Crystal Fire* — Riordan and Hoddeson. The transistor's origin, and the best account of what Bell
   Labs actually was.
-- [BookAuthority — semiconductors reading lists](https://bookauthority.org/books/best-semiconductors-books) -
-  If you want more.
+- [BookAuthority — semiconductors reading lists](https://bookauthority.org/books/best-semiconductors-books) - If you want more.
 
 ### Courses and Lecture Series
 
@@ -1787,18 +1587,15 @@ analytics work starts by parsing it.
   [Semiconductor Fundamentals](https://nanohub.org/courses/SFUN),
   [Fundamentals of Nanotransistors](https://nanohub.org/courses/NT), and
   [Fundamentals of Nanoelectronics](https://nanohub.org/courses/FON1).
-- [MIT OpenCourseWare — Microelectronic Devices and Circuits](https://ocw.mit.edu/search/?q=microelectronics) -
-  Full lecture notes and problem sets.
-- [Berkeley EE 143 — Microfabrication Technology](https://inst.eecs.berkeley.edu/~ee143/) -
-  Process-focused undergraduate course with public materials.
+- [MIT OpenCourseWare — Microelectronic Devices and Circuits](https://ocw.mit.edu/search/?q=microelectronics) - Full lecture notes and problem sets.
+- [Berkeley EE 143 — Microfabrication Technology](https://inst.eecs.berkeley.edu/~ee143/) - Process-focused undergraduate course with public materials.
 - [Georgia Tech 3D Systems Packaging Research Center](https://prc.gatech.edu/) - Short courses and
   research output specifically on packaging.
 - [imec Academy](https://www.imec-int.com/en/academy) - Industry training from the research
   institute itself.
 - [SEMI University](https://www.semi.org/en/semi-university) - Workforce-oriented courses on fab
   operations, equipment, and standards.
-- [Class Central — semiconductors and microelectronics](https://www.classcentral.com/subject/semiconductors) -
-  Aggregated index of ~300 free and paid courses.
+- [Class Central — semiconductors and microelectronics](https://www.classcentral.com/subject/semiconductors) - Aggregated index of ~300 free and paid courses.
 - [Zero to ASIC Course](https://www.zerotoasiccourse.com/) - Practical, project-based path from RTL
   to a real tapeout using the open flow.
 - [VLSI System Design (VSD)](https://www.vlsisystemdesign.com/) - Large catalogue of hands-on
@@ -1879,17 +1676,14 @@ analytics work starts by parsing it.
 - [IEEE Electron Device Letters](https://eds.ieee.org/publications) - Short-form device results.
 - [IEEE Transactions on Semiconductor Manufacturing](https://eds.ieee.org/publications) - Fab
   process control, yield, and metrology. Underused outside industry.
-- [IEEE Transactions on Components, Packaging and Manufacturing Technology (T-CPMT)](https://eps.ieee.org/) -
-  The packaging journal.
+- [IEEE Transactions on Components, Packaging and Manufacturing Technology (T-CPMT)](https://eps.ieee.org/) - The packaging journal.
 - [IEEE Transactions on CAD (TCAD)](https://ieee-ceda.org/) - EDA algorithms.
-- [Journal of Micro/Nanopatterning, Materials, and Metrology (JM3)](https://www.spiedigitallibrary.org/journals/journal-of-micro-nanopatterning-materials-and-metrology) -
-  Lithography and patterning.
+- [Journal of Micro/Nanopatterning, Materials, and Metrology (JM3)](https://www.spiedigitallibrary.org/journals/journal-of-micro-nanopatterning-materials-and-metrology) - Lithography and patterning.
 - [Journal of Vacuum Science & Technology A/B](https://pubs.aip.org/avs/jva) - Deposition, etch, and
   surface science.
 - [Nature Electronics](https://www.nature.com/natelectron/) - High-profile device and materials
   results.
-- [ECS Journal of Solid State Science and Technology](https://iopscience.iop.org/journal/2162-8777) -
-  Process chemistry.
+- [ECS Journal of Solid State Science and Technology](https://iopscience.iop.org/journal/2162-8777) - Process chemistry.
 
 ### Communities
 
@@ -2027,8 +1821,7 @@ It is also the fastest way to develop intuition for why the real thing is hard.
 
 ## 21. Related Awesome Lists
 
-- [awesome-semiconductor-startups](https://github.com/aolofsson/awesome-semiconductor-startups) -
-  Database of semiconductor startups with technology category, founding year, country, and exits.
+- [awesome-semiconductor-startups](https://github.com/aolofsson/awesome-semiconductor-startups) - Database of semiconductor startups with technology category, founding year, country, and exits.
   The list this one is modeled on.
 - [awesome-opensource-hardware](https://github.com/aolofsson/awesome-opensource-hardware) - 300+
   open-source hardware tools, generators, and reusable designs.

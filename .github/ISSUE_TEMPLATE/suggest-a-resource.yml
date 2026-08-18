@@ -1,0 +1,67 @@
+name: Suggest a resource
+description: Suggest something for the list without opening a pull request
+title: "[Suggestion]: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You do not have to open a PR — a good suggestion here is genuinely welcome.
+        If you would rather submit it yourself, see [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What is it, and why is it worth opening?
+      description: >
+        One or two sentences. For a tool, say what someone can run. For a paper, say
+        what it establishes. "Useful resource" is not a description.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section does it belong in?
+      options:
+        - Start Here
+        - Roadmaps and Standards Bodies
+        - Advanced Logic Scaling
+        - Lithography and Patterning
+        - Process Modules, Materials and Equipment
+        - Metrology, Inspection and Yield
+        - Memory Technology
+        - Advanced Packaging
+        - Chiplets and Die-to-Die Interfaces
+        - Design and EDA for Advanced Nodes and 3D
+        - TCAD and Physical Simulation
+        - AI and Machine Learning for Semiconductors
+        - Fab Operations and Manufacturing Science
+        - Test, Reliability and Hardware Security
+        - Economics, Markets and Policy
+        - Learning Resources
+        - Conferences, Journals and Communities
+        - Research Institutes and Consortia
+        - Industry Map
+        - DIY and Garage Fab
+        - Not sure / suggest a new section
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the README and this is not already listed
+          required: true
+        - label: This fits the list's focus on sub-10 nm logic, lithography, process technology, and advanced packaging
+          required: false

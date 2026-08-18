@@ -1,0 +1,42 @@
+name: Broken link or outdated entry
+description: Report a dead link, a moved project, or something that is no longer accurate
+title: "[Fix]: "
+labels: ["maintenance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are as valuable as additions. A curated list that quietly rots is
+        worse than no list.
+
+  - type: textarea
+    id: entry
+    attributes:
+      label: Which entry?
+      description: Paste the line from the README, or link to it.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong with it?
+      options:
+        - Dead link (404 / domain gone)
+        - Project moved or was renamed
+        - Project is archived or abandoned but listed as current
+        - Description is inaccurate
+        - Technical claim is out of date (roadmap, node status, etc.)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should it say instead?
+      description: >
+        If you know the new location or the correct information, please include it —
+        with a source for factual corrections. The node roadmap tables age fastest.
+    validations:
+      required: false

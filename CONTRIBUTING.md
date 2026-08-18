@@ -70,7 +70,8 @@ Remember to add the section to the table of contents.
 
 ## Style
 
-- Wrap prose at roughly 100 characters. Tables and long URLs may exceed this.
+- Wrap prose at roughly 100 characters. List items, tables, and long URLs may exceed this —
+  a list entry keeps its link and the start of its description on one line.
 - Use an em dash (—) between the link and its description.
 - American English, sentence case for descriptions.
 - Spell out an acronym on first use within a section: "atomic layer deposition (ALD)".
