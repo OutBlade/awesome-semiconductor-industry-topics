@@ -1,0 +1,52 @@
+name: Awesome Lint
+
+# Checks the list against sindresorhus/awesome-lint, which is the gate for being
+# accepted into the main awesome list. Run manually from the Actions tab.
+#
+# Deliberately does NOT run on every push: awesome-lint enforces a house style
+# that this list does not fully follow (it uses tables and em dashes), so a
+# permanently red check would be noise rather than signal. Run it when you want
+# a compliance report.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # awesome-lint checks repository age via git history, so it needs
+          # the full history rather than a shallow clone.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run awesome-lint
+        # Never fail the job: the report itself is the deliverable.
+        run: |
+          echo "::group::awesome-lint report"
+          npx awesome-lint 2>&1 | tee lint-report.txt || true
+          echo "::endgroup::"
+
+      - name: Summarize
+        run: |
+          {
+            echo "## awesome-lint report"
+            echo ""
+            echo '```'
+            cat lint-report.txt || echo "(no output captured)"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: awesome-lint-report
+          path: lint-report.txt
+          if-no-files-found: ignore
