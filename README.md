@@ -1830,6 +1830,10 @@ It is also the fastest way to develop intuition for why the real thing is hard.
   open-source hardware tools, generators, and reusable designs.
 - [awesome-hwd-tools](https://github.com/TM90/awesome-hwd-tools) - Open-source hardware design tools
   with a chip-design focus.
+- [awesome-hdl](https://github.com/drom/awesome-hdl) - Hardware description languages and the
+  simulation and synthesis tooling around them. Where the RTL material this list omits lives.
+- [awesome_photonics](https://github.com/joamatab/awesome_photonics) - Photonic design automation,
+  layout and simulation. Overlaps this list at silicon photonics and co-packaged optics.
 - [awesome-ai4eda](https://github.com/Thinklab-SJTU/awesome-ai4eda) - AI for EDA paper collection.
 - [awesome-electronics](https://github.com/kitspace/awesome-electronics) - Broader electronics
   engineering resources.
