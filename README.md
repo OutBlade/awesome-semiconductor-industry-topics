@@ -4,9 +4,11 @@
 > where the hardest engineering now happens: **logic below 10 nm** and **inside the package**.
 
 Most "awesome semiconductor" lists are really awesome-RTL lists — they stop at the GDSII handoff.
-This one starts there and keeps going: how the pattern actually gets onto silicon, how atoms get
-added and removed, how the die gets measured, thinned, bonded, stacked, and cooled, and how the
-factory that does all of it is scheduled and financed.
+This one starts there and keeps going: how the pattern actually gets onto silicon (EUV, High-NA,
+computational lithography, OPC and ILT), how atoms get added and removed (deposition, etch, CMP,
+implant, epitaxy), how the die gets measured, thinned, bonded, stacked, and cooled (metrology and
+yield, TSVs, hybrid bonding, 2.5D interposers, fan-out and panel-level packaging, chiplets and
+die-to-die interfaces), and how the factory that does all of it is scheduled and financed.
 
 Everything here is a link to something you can read, run, download, or attend. Where a topic is
 dominated by proprietary tools, the list says so rather than pretending an open-source equivalent
@@ -14,9 +16,10 @@ exists.
 
 **Scope**
 
-- ✅ Advanced logic scaling (FinFET → GAA nanosheet → forksheet → CFET), lithography, process
-  modules, metrology, memory, **advanced packaging and chiplets**, TCAD, EDA for 3D, fab
-  operations, test, reliability, and the economics/policy layer around all of it.
+- ✅ Advanced logic scaling (FinFET → GAA nanosheet → forksheet → CFET, backside power delivery),
+  lithography, process modules, metrology, memory (DRAM, 3D NAND, HBM), **advanced packaging and
+  chiplets**, TCAD, EDA for 3D, fab operations, test, reliability, and the economics/policy layer
+  around all of it.
 - ✅ Open-source tools, public datasets, benchmark suites, standards, roadmaps, and papers.
 - ⚠️ Not a startup database — for that see [awesome-semiconductor-startups](https://github.com/aolofsson/awesome-semiconductor-startups).
 - ⚠️ Not an RTL/HDL list — for that see [awesome-opensource-hardware](https://github.com/aolofsson/awesome-opensource-hardware).
