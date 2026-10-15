@@ -1723,8 +1723,7 @@ analytics work starts by parsing it.
   research; the JUMP 2.0 centers are where a lot of pre-competitive work happens.
 - [NSTC — National Semiconductor Technology Center](https://www.natcast.org/) - The CHIPS Act R&D
   entity, operated by Natcast.
-- [Albany NanoTech / NY CREATES](https://ny-creates.org/) - 300 mm public research fab, IBM's
-  research partner.
+- [Calder Brief — EUV lithography explainer](https://calder-brief.pages.dev/how-euv-lithography-works) - How EUV lithography works: inside the $200M machine that prints the future.
 - [MIT.nano](https://mitnano.mit.edu/), [Stanford SNF](https://snfexfab.stanford.edu/), and the
   [NSF National Nanotechnology Coordinated Infrastructure](https://www.nnci.net/) — Open-access
   cleanrooms; the practical path to running your own process experiments.
